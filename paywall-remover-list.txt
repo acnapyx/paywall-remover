@@ -20,7 +20,7 @@ wired.com/assets/load
 ! Kill Boston Globe adblock and incognito filtering
 meter.bostonglobe.com/js/meter.js
 ! Kill MIT Technology Review incognito filtering
-!cdn.technologyreview.com/_/dist/js/article.js
+cdn.technologyreview.com/_/dist/js/article.js
 ! Kill Webcafe adblock filtering
 webcafe.bg/js/site.js
 ! Kill Salon adblock/cryptominer filtering
