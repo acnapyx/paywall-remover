@@ -1,0 +1,27 @@
+[Adblock Plus 2.0]
+! Version: 201803241915
+! Expires: never
+! Title: Paywall Remover
+! Homepage: https://github.com/acnapyx/paywall-remover
+
+! Paywalls and nags remover by AspSoft
+! Last modified: 24 Mar 2018 19:15 EET
+! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
+! Contact me at asparuh at unleaslab dot com
+
+!--- General rules ---!
+
+! Kill Wordpress Firefox ESR52 nag
+###dashboard_browser_nag
+! Kill Wired adblock filtering
+wired.com/assets/load
+! Kill Business Insider adblock filtering
+@@||businessinsider.com^$elemhide
+! Kill Boston Globe adblock and incognito filtering
+meter.bostonglobe.com/js/meter.js
+! Kill MIT Technology Review incognito filtering
+!cdn.technologyreview.com/_/dist/js/article.js
+! Kill Webcafe adblock filtering
+webcafe.bg/js/site.js
+! Kill Salon adblock/cryptominer filtering
+salon.com/assets/app.js
