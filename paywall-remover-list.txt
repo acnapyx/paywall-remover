@@ -11,17 +11,35 @@
 
 !--- General rules ---!
 
-! Kill Wordpress Firefox ESR52 nag
+!  Wordpress Firefox ESR52 nag
 ###dashboard_browser_nag
-! Kill Wired adblock filtering
+! Wired adblock filtering
 wired.com/assets/load
-! Kill Business Insider adblock filtering
+! Business Insider adblock filtering
 @@||businessinsider.com^$elemhide
-! Kill Boston Globe adblock and incognito filtering
+! Boston Globe adblock and incognito filtering
 meter.bostonglobe.com/js/meter.js
-! Kill MIT Technology Review incognito filtering
+! MIT Technology Review incognito filtering
 cdn.technologyreview.com/_/dist/js/article.js
-! Kill Webcafe adblock filtering
+! Webcafe adblock filtering
 webcafe.bg/js/site.js
-! Kill Salon adblock/cryptominer filtering
+! Salon adblock/cryptominer filtering
 salon.com/assets/app.js
+! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
+cdn.tinypass.com*
+! SentryLogin blocker
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+! MyMemberspace blocker
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+! MembershipWorks blocker
+cdn.membershipworks.com*
