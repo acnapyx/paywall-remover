@@ -14,7 +14,7 @@ In an effort to demonstrate the state of some of these apps simply subscribe to 
 
 
 ## Subscribing to the List
-Click on [this link](abp:subscribe?location=http://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt&title=Paywall Remover), or copy the subscription link, `https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt`, into your AdBlock browser plugin options. You're done.
+Copy the subscription link, `https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt`, into your AdBlock browser plugin options. You're done.
 
 
 ### How It Works
