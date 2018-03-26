@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201803241915
+! Version: 201803261615
 ! Expires: never
 ! Title: Paywall Remover
 ! Homepage: https://github.com/acnapyx/paywall-remover
@@ -13,8 +13,6 @@
 
 !  Wordpress Firefox ESR52 nag
 ###dashboard_browser_nag
-!  Guardian contribution nag
-###contributions__epic 
 ! Wired adblock filtering
 wired.com/assets/load
 ! Business Insider adblock filtering
