@@ -13,6 +13,8 @@
 
 !  Wordpress Firefox ESR52 nag
 ###dashboard_browser_nag
+!  Guardian contribution nag
+###contributions__epic 
 ! Wired adblock filtering
 wired.com/assets/load
 ! Business Insider adblock filtering
