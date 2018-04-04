@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 201803261615
+! Version: 201804042050
 ! Expires: never
 ! Title: Paywall Remover
 ! Homepage: https://github.com/acnapyx/paywall-remover
 
 ! Paywalls and nags remover by AspSoft
-! Last modified: 24 Mar 2018 19:15 EET
+! Last modified: Apr 4 2018 20:50 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
 ! Contact me at asparuh at unleaslab dot com
 
@@ -25,6 +25,9 @@ cdn.technologyreview.com/_/dist/js/article.js
 webcafe.bg/js/site.js
 ! Salon adblock/cryptominer filtering
 salon.com/assets/app.js
+! Seattle Times adblock/incognito filtering
+seattletimes.com/wp-content/plugins/st-privacy-detection/js/
+
 ! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
 cdn.tinypass.com*
 ! SentryLogin blocker
