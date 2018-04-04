@@ -30,6 +30,7 @@ The text file in this project contains a curated list of filters for some of pay
 * Salon.com
 * BusinessInsider
 * Boston Globe
+* Seattle Times
 * MIT Technology Review
 * Webcafe.bg
 
