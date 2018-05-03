@@ -27,6 +27,8 @@ webcafe.bg/js/site.js
 salon.com/assets/app.js
 ! Seattle Times adblock/incognito filtering
 seattletimes.com/wp-content/plugins/st-privacy-detection/js/
+! Bloomberg paywall
+assets.bwbx.io/s3/fence/v4/app.bundle.js
 
 ! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
 cdn.tinypass.com*
