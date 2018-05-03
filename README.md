@@ -26,6 +26,7 @@ The text file in this project contains a curated list of filters for some of pay
 * SentryLogin
 * MyMemberspace
 * MembershipWorks
+* Bloomberg.com
 * Wired.com
 * Salon.com
 * BusinessInsider
