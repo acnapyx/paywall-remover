@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 201803051630
+! Version: 201811051400
 ! Expires: never
 ! Title: Paywall Remover
 ! Homepage: https://github.com/acnapyx/paywall-remover
 
 ! Paywalls and nags remover by AspSoft
-! Last modified: May 3 2018 16:30 EET
+! Last modified: May 11 2018 14:00 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
 ! Contact me at asparuh at unleaslab dot com
 
