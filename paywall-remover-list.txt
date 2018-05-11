@@ -31,7 +31,7 @@ seattletimes.com/wp-content/plugins/st-privacy-detection/js/
 assets.bwbx.io/s3/fence/v4/app.bundle.js
 
 ! Admiral blocker
-||functionalclam.com^$third-party
+perceivequarter.com*
 ! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
 cdn.tinypass.com*
 ! SentryLogin blocker
