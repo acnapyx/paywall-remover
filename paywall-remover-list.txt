@@ -52,3 +52,4 @@ memberspace.com/member*
 cdn.membershipworks.com*
 ! IAB CMP Transparency & Consent Framework blocker
 *mgr.consensu.org*
+cdn.cookielaw.org/consent/*
