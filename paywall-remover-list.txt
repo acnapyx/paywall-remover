@@ -50,5 +50,5 @@ memberspace.com/member*
 ###__memberspace_modal_iframe
 ! MembershipWorks blocker
 cdn.membershipworks.com*
-! GDPR popups and banners blocker
-quantcast.mgr.consensu.org/cmpui*
+! IAB CMP Transparency & Consent Framework blocker
+*mgr.consensu.org*
