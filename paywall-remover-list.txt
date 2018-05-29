@@ -54,4 +54,4 @@ cdn.membershipworks.com*
 *mgr.consensu.org*
 cdn.cookielaw.org/consent/*
 consent.cookiebot.com*
-c.evidon.com/sitenotice/*
+c.evidon.com/*
