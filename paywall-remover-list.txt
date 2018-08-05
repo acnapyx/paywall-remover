@@ -31,6 +31,8 @@ seattletimes.com/wp-content/plugins/st-privacy-detection/js/
 assets.bwbx.io/s3/fence/v4/app.bundle.js
 ! Slate adblock nag
 ###adblock-message
+! Pixlr adblock nag
+@@||pixlr.com$generichide
 
 ! Admiral blocker
 perceivequarter.com*
