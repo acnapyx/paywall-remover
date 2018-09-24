@@ -29,9 +29,8 @@ salon.com/assets/app.js
 seattletimes.com/wp-content/plugins/st-privacy-detection/js/
 ! Bloomberg paywall
 assets.bwbx.io/s3/fence/v4/app.bundle.js
-! New Yorker  paywall
+! Conde Nast paywalls
 newyorker.com/js/article.js
-! Vanity Fair paywall
 vanityfair.com/js/article.js
 ! RawStory paywall
 scrubswim.com*
