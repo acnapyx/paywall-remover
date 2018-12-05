@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 201824092235
+! Version: 201805121455
 ! Expires: never
 ! Title: Paywall Remover
 ! Homepage: https://github.com/acnapyx/paywall-remover
 
 ! Paywalls and nags remover by AspSoft
-! Last modified: Sep 24 2018 22:35 EET
+! Last modified: Dec 05 2018 14:55 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
 ! Contact me at asparuh at unleaslab dot com
 
@@ -29,6 +29,8 @@ salon.com/assets/app.js
 seattletimes.com/wp-content/plugins/st-privacy-detection/js/
 ! Bloomberg paywall
 assets.bwbx.io/s3/fence/v4/app.bundle.js
+! New Statesman paywall
+newstatesman.com/sites/all/modules/paywall/assets/js/*
 ! Conde Nast paywalls
 newyorker.com/js/article.js
 vanityfair.com/js/article.js
