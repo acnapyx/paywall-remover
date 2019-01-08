@@ -45,6 +45,7 @@ scrubswim.com*
 perceivequarter.com*
 ! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
 cdn.tinypass.com*
+experience.tinypass.com*
 ! SentryLogin blocker
 sentrylogin.com/sentry/scripts/*
 ##.Sentry_blanket
