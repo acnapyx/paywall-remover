@@ -66,3 +66,5 @@ cdn.membershipworks.com*
 *mgr.consensu.org*
 cdn.cookielaw.org/consent/*
 consent.cookiebot.com*
+! AdSanity blocker
+*/adsanity-ad-block-detection/public/js/*
