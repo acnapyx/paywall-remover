@@ -40,6 +40,8 @@ scrubswim.com*
 ###adblock-message
 ! Pixlr adblock nag
 @@||pixlr.com$generichide
+! BoredPanda nag
+squeakzinc.com/v2/*
 
 ! Admiral blocker
 perceivequarter.com*
