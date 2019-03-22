@@ -32,8 +32,8 @@ assets.bwbx.io/s3/fence/v4/app.bundle.js
 ! New Statesman paywall
 newstatesman.com/sites/all/modules/paywall/assets/js/*
 ! Conde Nast paywalls
-newyorker.com/js/article.js
-vanityfair.com/js/article.js
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
 ! RawStory paywall
 scrubswim.com*
 ! Slate adblock nag
