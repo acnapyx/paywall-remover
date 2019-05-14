@@ -40,4 +40,4 @@ The text file in this project contains a curated list of filters for some of pay
 This project isn't aimed at promoting content theft by any means. It's promoting the idea of making the web a more secure place, forcing developers to think of better solutions to protect users, and calling out companies that are misrepresenting products and solutions for content protection.
 
 ### Contribute
-Submit new apps and filters as [issues](/issues).
+Submit new apps and filters as [issues](https://github.com/acnapyx/paywall-remover/issues).
