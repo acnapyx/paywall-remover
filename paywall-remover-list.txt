@@ -71,3 +71,5 @@ cdn.cookielaw.org/consent/*
 consent.cookiebot.com*
 ! AdSanity blocker
 */adsanity-ad-block-detection/public/js/*$script
+! FuckAdblock blocker
+cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.js
