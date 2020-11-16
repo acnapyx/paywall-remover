@@ -66,8 +66,10 @@ memberspace.com/member*
 ! MembershipWorks blocker
 cdn.membershipworks.com*
 ! Cookie Transparency & Consent Framework blocker
-*mgr.consensu.org*
-cdn.cookielaw.org/consent/*
-consent.cookiebot.com*
+!*mgr.consensu.org*
+!cdn.cookielaw.org/consent/*
+!consent.cookiebot.com*
 ! AdSanity blocker
 */adsanity-ad-block-detection/public/js/*$script
+!Evidon blocker
+c.evidon.com/*
