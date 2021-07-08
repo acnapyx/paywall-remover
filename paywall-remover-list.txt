@@ -32,6 +32,8 @@ seattletimes.com/wp-content/plugins/st-privacy-detection/js/
 assets.bwbx.io/s3/fence/v4/app.bundle.js
 ! New Statesman paywall
 newstatesman.com/sites/all/modules/paywall/assets/js/*
+! iNews adblock filtering
+https://inews.co.uk/static/inews-ab-dialog/inewsFeAdblockDialog.js
 ! Conde Nast paywalls
 newyorker.com/js/article*.js
 vanityfair.com/js/article*.js
