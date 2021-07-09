@@ -45,6 +45,9 @@ scrubswim.com*
 @@||pixlr.com$generichide
 ! BoredPanda nag
 squeakzinc.com/v2/*
+! Zelka nag
+zelka.org##.magla
+zelka.org##.blocker-form
 
 ! Admiral blocker
 perceivequarter.com*
