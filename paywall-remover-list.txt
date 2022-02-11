@@ -47,6 +47,7 @@ scrubswim.com*
 squeakzinc.com/v2/*
 ! Reddit promoted posts
 reddit.com##div[class*=*promotedlink]
+reddit.com###t3_z\=gAAAAABiBnq*
 ! Zelka nag
 zelka.org##.magla
 zelka.org##.blocker-form
