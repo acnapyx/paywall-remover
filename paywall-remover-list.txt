@@ -46,7 +46,7 @@ scrubswim.com*
 ! BoredPanda nag
 squeakzinc.com/v2/*
 ! Reddit promoted posts
-reddit.com##div[class*=promotedlink]
+reddit.com##div[class*=*promotedlink]
 ! Zelka nag
 zelka.org##.magla
 zelka.org##.blocker-form
