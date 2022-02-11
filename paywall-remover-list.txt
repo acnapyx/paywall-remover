@@ -7,7 +7,7 @@
 ! Paywalls and nags remover by AspSoft
 ! Last modified: Mar 28 2019 16:20 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
-! Contact me at asparuh at unleaslab dot com
+! Contact me at asparuh at 365careers dot com
 
 !--- General rules ---!
 
@@ -45,6 +45,8 @@ scrubswim.com*
 @@||pixlr.com$generichide
 ! BoredPanda nag
 squeakzinc.com/v2/*
+! Reddit promoted posts
+reddit.com##div[class*=promotedlink]
 ! Zelka nag
 zelka.org##.magla
 zelka.org##.blocker-form
