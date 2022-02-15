@@ -41,6 +41,9 @@ vanityfair.com/js/article*.js
 scrubswim.com*
 ! Slate adblock nag
 ###adblock-message
+! Steady paywall
+steadyhq.com/widget_loader/*
+https://steadycdn.com/prod/js/*
 ! Pixlr adblock nag
 @@||pixlr.com$generichide
 ! BoredPanda nag
