@@ -24,6 +24,7 @@ The text file in this project contains a curated list of filters for some of pay
 ### Blocked Apps
 * Piano / Tinypass
 * SentryLogin
+* Steady
 * MyMemberspace
 * MembershipWorks
 * Bloomberg.com
