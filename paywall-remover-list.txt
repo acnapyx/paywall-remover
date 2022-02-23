@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 201903281620
+! Version: 202202231430
 ! Expires: never
 ! Title: Paywall Remover
 ! Homepage: https://github.com/acnapyx/paywall-remover
 
 ! Paywalls and nags remover by AspSoft
-! Last modified: Mar 28 2019 16:20 EET
+! Last modified: Feb 23 2022 16:20 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
 ! Contact me at asparuh at 365careers dot com
 
@@ -81,3 +81,948 @@ cdn.membershipworks.com*
 */adsanity-ad-block-detection/public/js/*$script
 !Evidon blocker
 c.evidon.com/*
+
+! This part of the list contributed anonymously via guerrillamail - cannot provide credit for now. Asking the contributor to contact me privately via email again.
+! --------- GENERAL FILTERS ---------
+###__memberspace_memberlogin_button
+###__memberspace_modal_background
+###__memberspace_modal_container
+###__memberspace_modal_iframe
+###__memberspace_modal_protected_page
+###ad-masthead
+###adpayload
+###arcad_recirc
+###ConnatixVideoAd
+###credential_picker_container
+###custom_html-16
+###header-banner
+###issuem-leaky-paywall-articles-remaining-nag
+###issuem-leaky-paywall-articles-zero-remaining-nag
+###leaderboard-wrapper
+###nl-box
+###pathfinder-tout
+###paywall-bar
+###pianoMediaBar
+###playerSkipButton:style(display:inline!important)
+###playerSkipLoading
+###poool-widget
+###PopupSignupForm_0
+###premium-toaster
+###pub-box-materia
+###pub-fullbanner-1
+###SentryOverlay
+###stickyfooterarticle
+###subscription-pencil-area
+##._6f0a2
+##.ad-col
+##.ad-ft
+##.advert
+##.arc-ad
+##.arc-ad-wrapper
+##.assine-bar
+##.block__advertising-content
+##.block__subpane--advertising.block__subpane
+##.blockOverlay
+##.blockPage
+##.c-assine-container
+##.c-button--subscribe
+##.codedNewsletter.pb-f-page-newsletter-inLine
+##.container-with-ad
+##.continue_reading_wrapper
+##.c-partner-articles
+##.c-push-notification
+##.dn.db-ns[style^="height:"][style*="1250px"]
+##.e1i2wxpm0.css-mlcs8h.shown
+##.entrySubs
+##.gdpr
+##.gnt_n:style(top:0!important;margin-top:0!important)
+##.gnt_tb, .gnt_xbr, .gnt_cw_sl, #gnt_atomsnc, .gnt_pm, .ad-container
+##.has-promotiom.lee-subscription-article-link
+##.hh-box__paywall.hh-box.c-paywall.upgrade
+##.imoneza-wrapper-wallet.imoneza-wrapper
+##.injection
+##.InlineMessage-inline--2ysnq
+##.interstitial.hide-for-print
+##.item--sponsored
+##.magnoliaDock
+##.meter-social-connect
+##.payWall
+##.paywall
+##.paywall:style(color: unset !important; text-shadow: none !important)
+##.paywall-bar
+##.paywall-callout
+##.paywall-container-component--growler.paywall-container-component
+##.paywall-fx
+##.paywall-gradient-overlay
+##.paywall-mount
+##.paywall-notice
+##.paywall-popup
+##.paywall-upsell
+##.pb-f-ads-arcads
+##.pb-f-article-related-articles
+##.pb-f-marketing-container-placeholder
+##.pb-f-page-subscription-remind-later
+##.pb-lgmod
+##.play-wrapper.player-wrapper
+##.preloaded_lightbox
+##.promo
+##.section-advertising-middle-1.section-advertising-middle
+##.Sentry_blanket
+##.sticky_container
+##.subscriber-ad
+##.subscription-proposition
+##.support-jlm
+##.tnt-ads
+##.tnt-ads-container
+##.tnt-dmp-reactive.modal
+##.tnt-section-sponsored
+##.ttWall.ttfull
+##.you-shall-not-pass
+##.ZapdosWallWrapper
+##.zone-el[data-feature="suggested"]
+##[aria-labelledby="bottom-bar-primary-text"]
+##[class^="pb-f-ad-"]
+##[data-chain-name^="ad-group"]
+##[data-chain-name="brandconnect-chain"]
+##[data-feature-id$="-pre-roll"]
+##[data-feature-id^="ad/"]
+##[data-lpos^="promo-"]
+##[data-lpos^="registration|"]
+##[data-lpos="gamp"]
+##[data-lpos="in-article-messaging"]
+##[data-qa="inline-subs-bg"]:upward(.hide-for-print)
+##[data-qa="interstitial-link-wrapper"]
+##[data-qa="newsletter"]
+##[id*="-box-ad-"]
+##[id^="csm-promotions-banner"]
+##[id^="home-subscribe-ad"]
+##[id^="story-ad-"]
+##+js(acis, $, reg-wall)
+##+js(aopr, ArcPOptions)
+##+js(aopr, geoIdentify)
+##+js(aopr, poool)
+##+js(aopr, tgam.darwin.tests.segments.push)
+##+js(json-prune, ids meteredIds, modified)
+##+js(json-prune, props)
+##+js(remove-attr, oncontextmenu)
+##+js(set, $.prototype.wpPreroll, noopFunc)
+##+js(set, __page__.isPremium, false)
+##+js(set, __PRELOADED_CONFIG_DATA__.enableHardPaywall, false)
+##+js(set, __PRELOADED_STATE__.paywall, false)
+##+js(set, app.isPortada, true)
+##+js(set, bg.page.exemptFromMeter, true)
+##+js(set, Fusion.globalContent.isPremium, false)
+##+js(set, gnt.u.adfree, true)
+##+js(set, keytar.accessAllowed, true)
+##+js(set, navigator.storage.estimate, undefined)
+##+js(set, webkitRequestFileSystem, noopFunc)
+##+js(set, wp_pb.StaticMethods.parametrizeLinks.getRules, noopFunc)
+##barreiraRegisterExclusiva
+##bt-read-more-content
+##div.sp__SM
+##div[data-testid="expanded-dock"]
+##div[data-testid="inline-message"]
+##div[data-test-id="RecommendedNewsletter"]
+##section.block--advertising.block
+##section.four-subpanes-with-advertising.block
+#@#.ttWallTD
+*evolok*
+*fivewall*
+*ivcbrasil*
+*mediapass*
+*netdeal*
+*paywall*
+*piano.io*
+*pwapi*
+*tinypass*
+*wallkit*
+.signup_wall_prevent_scroll
+/?prebid=
+/action/public/vo/pigeon-server?callback=PGPW&json=*content_access
+/admin-ajax.php*
+/ads/?rotator_all=$subdocument
+/adsanity-ad-block-detection/public/js/*$script
+/api/auth/is-logged-in
+/api/overlaydata
+/api/site/behavior
+/app.bundle.js*
+/arc/subs/p.js*
+/article-countdown-nag.js*
+/assets/js/posts.js*$script
+/assinaturas/public/js/connect_api.js*
+/Bootstrap.js*
+/check-ad-free/*
+/coil-web-monetization/*
+/commons/sw/*
+/components/subscription/*
+/default/*/headjs/*
+/estadao/js/modules/navegg*$script
+/fence/*
+/gannett-web/apps/teal/dist/vendor/ias/*
+/GateHouse/*
+/gw.js*
+/gwy.js*
+/identity-management-
+/it/js/paid-content-config.js*
+/jquery.login.min.js*
+/js/article*.js*
+/js/contadorDeAcessos.js*$script
+/lee_subscription/*
+/loader/v1/logan_full_toolbar.js*
+/meter.js*
+/meter/$script
+/meter/latspot.min.js*
+/metered_assets
+/metering/*
+/meteringjs/*
+/mtr.js*
+/newsletter-campaign-manager/*
+/nova-tela-register.js*
+/ondemand/ars
+/outbrain.js*
+/outbrain.min.js*
+/paymeterconfig/*
+/pf/resources/dist/third-party.js*
+/piano.js*
+/piano.min.js*
+/pianola/*
+/pigeon.*/*.js*
+/poool.js*
+/poool.min.js*
+/prod/cloudfrontVideoTracker.png
+/promo_popup.$script
+/publicidade.ads.js*
+/pw.js*
+/registraConteudosLidos.js*
+/sentry/scripts/*
+/signup_background
+/signup_wrapper
+/SLoader.js*
+/static/js/ltjs.js*
+/stl.init.js*
+/subscribe/logging/*
+/subscribe/pw/*
+/subscription-acquisition
+/sweeper/*
+/tangstatic/*
+/temptation/resolve*
+/tncms/*
+/tnt.access.
+/web-push/modal-naoassinante$xmlhttprequest,first-party
+/weizenbock.js*
+/weizenbock/*
+/wp-content/themes/exame-new/js/pywll.js*
+/wp-stat/pb/prod/*
+/yozons-lib/*
+@@*paywall/js/1/publicidade.ads.js*
+@@/api/v1/setCookie$xhr,1p
+@@/paywall/adblock.shtml?$document
+@@/portal/js/advertisement.js*
+@@/tangstatic/js/main-
+@@/tncms/*/ads/*/tnt.ads.advertisements.$script
+@@/treg.js$script
+@@/yozons-lib/core.js*
+@@||experience.tinypass.com/xbuilder/$script,3p
+@@||paywall.*/status.php^$document
+||api.smh.com.au/graphql?query=query%20UpdatedPaywallRulesQuery
+||qiota.com^$third-party,important
+accounts.google.com/gsi/$~script
+adserver.dfsites.com.br
+alert.mac-notification.com
+amp-access-$script 
+ayc0zsm69431gfebd.
+azureedge.net
+azurewebsites.net
+batch.com^$third-party
+bet365.com
+blueconic.net/*
+bntech.io
+bwbx.io
+c.evidon.com/*
+carbonpay.app
+cdn.ampproject.org/v*/amp-access-*.*js
+cdn.ampproject.org/v*/amp-subscriptions-*.*js
+cdn.cookielaw.org/consent/*
+cdn.membershipworks.com/*
+cdn.memberspace.com/*
+cdn.mymemberspace.com/*
+cdn.tinypass.com/*
+cloudfront.net/PrerollPlugin/*
+cointent.com
+concert.io
+connector.laterpay.net
+connext-cdn.ec.
+content-gate.js*
+contentpass.net
+controla-acesso
+cxense.com/*
+czx5eyk0exbhwp43ya.biz
+device-information-console.com
+dm.thehindu.com
+downloadapps247.tech
+easydefile.com
+evolok.net/*
+facebook.com##.ego_section
+flittz.com
+fxregisters.eu
+g2insights-cdn.
+gannett-cdn.com
+go.bancdebinary.com
+hearstnp.com
+isanalyze.com
+js.matheranalytics.com/*
+js.pelcro.com/*
+jsuol.com.br/c/detectadblock/adframe.js*
+lightboxcdn.com^$third-party
+loader-cdn.
+loader-cdn.azureedge.net/prod/*/loader.min.js*
+mac-app.store-secured.online/*
+mackeeperapp.mackeeper.com/landings/*
+makemoneyrobot.com
+marketingg2.com
+media.*/escenic
+media.*/micb.js*
+media.*/misites/*
+memberspace.com/member*
+merreader.emol.cl/assets/js/merPramV2.js*
+meter-svc.
+mg2connext.com
+mppapi.io^$third-party
+mppglobal.com^$third-party
+mymemberspace.com/assets/api/*
+namibiansun.com,az.com.na,republikein.com.na##+js(set, $.prototype.modal, noopFunc)
+netdna-ssl.com
+news.google.com/swg/$script,third-party
+newsmemory.com
+npttech.com/advertising.js*
+onecount.net/*
+onecount.net^$third-party
+outbrain.com/*
+pay.google.com/gp/p/ui/payframe
+paymentwall.com
+pelcro.com^$third-party
+piano.io/*
+piano-media.com
+poool.fr/*
+poool.fr^$third-party
+popmyads.com/serve/*
+prod-mng-proxy-connext.
+profitwell.com^$third-party
+qiota.com/*
+qiota.com^$third-party,important
+rcimages.xyz
+redcharger.
+revprotect.com
+s.ppjol.net/lightbox/pp*.js*
+scroll.com^$third-party
+securemacfix.com/landings/*
+simplywall.st
+smartlock.google.com
+smartwall.
+sovrnlabs.net
+static.*/library/jquery/*
+subscriptiongenius.com
+supportversion.legalsoft4everworks.website/*
+surfsecured.net
+swisspay.ch
+syncronex.com
+taboola.com^$third-party
+tags.creativille.co.uk
+tribdss.com/*
+tsbluebox.com
+unlock-protocol.com
+vidazoo.com
+vidoplay.com
+whichtalk.com
+youmaker.com
+
+! ---- INTERNATIONAL FILTERS ----
+
+! Admiral blocker
+perceivequarter.com*
+
+! AdSanity blocker
+/adsanity-ad-block-detection/public/js/*$script
+
+! Cookie Transparency & Consent Framework blocker
+mgr.consensu.org*
+cdn.cookielaw.org/consent/*
+consent.cookiebot.com*
+
+! Evidon blocker
+c.evidon.com/*
+
+! MembershipWorks blocker
+cdn.membershipworks.com*
+
+! MyMemberspace blocker
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+
+! RawStory blocker
+scrubswim.com
+
+! SentryLogin blocker
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+
+! Tinypass (tinypass.com)
+||cdn.tinypass.com/api/tinypass.min.js
+||dashboard.tinypass.com/xbuilder/experience/load*
+||tinypass.com^$third-party
+cdn.tinypass.com*
+experience.tinypass.com*
+market.tinypass.com/
+tinypass.min.js*$script
+
+! Bloomberg (bloomberg.com)
+||assets.bwbx.io^*/fence/$script
+||assets.bwbx.io^*/pianola/$script
+bloomberg.com###pathfinder-tout
+assets.bwbx.io/s3/fence/v4/app.bundle.js
+assets.bwbx.io/s3/fence/*
+bloomberg.com###paywall-banner
+
+! Condé Nast
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
+allure.com/js/article*.js
+architecturaldigest.com/js/article*.js
+bonappetit.com/js/article*.js
+cntraveler.com/js/article*.js
+gq.com/js/article*.js
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
+vogue.com/js/article*.js
+wired.com/js/article*.js
+://journey.$first-party,script,domain=allure.com|architecturaldigest.com|bonappetit.com|cntraveler.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(nofab)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(set, paywallGateway.truncateContent, noopFunc)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.ad—rail
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.ad-stickyhero
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.journey-template--in-content
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.journey-unit, [class*="ConsumerMarketingUnit"]
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-registration-gate
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-registration-gate-container
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-bar—expanded
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-bar--visible
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##aside[class^="PaywallBarWrapper-"]
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##div[data-event-click='{"pattern":"PaywallConductor"}']
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##div[data-impression-name="paywall-bar-failsafe"]
+
+! The New York Times (nytimes.com)
+/mtr.js$script,domain=nyt.com|nytimes.com
+||meter-svc.nytimes.com^
+||nyt.com^*/metered_assets$script
+||nytimes.com^*/metered_assets/
+||nytimes.com/svc/nyt/data-layer
+nytimes.com###credential_picker_container
+nytimes.com##+js(set, navigator.storage.estimate, undefined)
+nytimes.com##+js(set, webkitRequestFileSystem, noopFunc)
+nytimes.com##.InlineMessage-inline--2ysnq
+nytimes.com##.e1i2wxpm0.css-mlcs8h.shown
+nytimes.com##.gdpr
+nytimes.com##.magnoliaDock
+nytimes.com##div[data-test-id="RecommendedNewsletter"]
+nytimes.com##div[data-testid="expanded-dock"]
+nytimes.com##div[data-testid="inline-message"]
+nytimes.com/*/gw.js*
+nytimes.com/*/gwy.js*
+www-nytimes-com.cdn.ampproject.org##.i-amphtml-subs-display[subscriptions-display^="grantReason != 'SUBSCRIBER' AND NOT data.hitPaywall"]
+
+! Washington Post (washingtonpost.com)
+@@||subscribe.washingtonpost.com/user/$xhr,1p
+||d2p9l91d5g68ru.cloudfront.net/PrerollPlugin/
+||subscribe.washingtonpost.com^
+||washingtonpost.com/pb/*/subscription-acquisition
+||washingtonpost.com/pb/gr/c/default/*/identity-management-$script
+||washingtonpost.com/pwapiv2/
+||washingtonpost.com/subscribe/logging/
+||washingtonpost.com/subscribe/paywall/
+||washingtonpost.com/subscribe/pw/
+||washingtonpost.com/wp-stat/pb/prod/pmbl.txt
+||washingtonpost.com/wp-stat/pwapi/*
+||washingtonpost.com^*/pwapi-$script
+washingtonpost.com###leaderboard-wrapper
+washingtonpost.com##+js(set, $.prototype.wpPreroll, noopFunc)
+washingtonpost.com##+js(set, wp_pb.StaticMethods.parametrizeLinks.getRules, noopFunc)
+washingtonpost.com##.codedNewsletter.pb-f-page-newsletter-inLine
+washingtonpost.com##.dn.db-ns[style^="height:"][style*="1250px"]
+washingtonpost.com##.interstitial.hide-for-print
+washingtonpost.com##.pb-f-ads-arcads
+washingtonpost.com##.pb-f-page-subscription-remind-later
+washingtonpost.com##.pb-lgmod
+washingtonpost.com##.promo
+washingtonpost.com##[class^="pb-f-ad-"]
+washingtonpost.com##[data-chain-name="brandconnect-chain"]
+washingtonpost.com##[data-chain-name^="ad-group"]
+washingtonpost.com##[data-feature-id$="-pre-roll"]
+washingtonpost.com##[data-feature-id^="ad/"]
+washingtonpost.com##[data-qa="inline-subs-bg"]:upward(.hide-for-print)
+washingtonpost.com##[data-qa="interstitial-link-wrapper"]
+washingtonpost.com##[data-qa="newsletter"]
+washingtonpost.com##.paywall > div[style^="width: 100%; margin: 32px auto;"]
+
+! Blox CMS - Town News
+@@||townnews.com^*/tncms/*/ads/*/tnt.ads.advertisements.$script
+@@||townnews.com^*/tncms/*/ads/*/tnt.ads.adverts.$script
+||townnews.com^*/promo_popup.$script
+||townnews.com^*/tncms/*/metering/
+||townnews.com^*/tncms/*/components/subscription/*/tnt.access.$script
+/tncms/api/access.js|$script
+##.tnt-section-sponsored
+##.subscriber-ad
+##.tnt-dmp-reactive.modal
+richmond.com##+js(acis, $, reg-wall)
+
+! Los Angeles Times (latimes.com)
+||californiatimes.com^*/Bootstrap.js$script
+||californiatimes.com/meter/$script
+||californiatimes.com/meteringjs/$script
+||californiatimes.com/newsletter-campaign-manager/$script
+
+! Lee Enterprises sites
+||townnews.com^*/lee_subscription/
+||townnews.com/stltoday.com/*/stl.init.js$script,domain=stltoday.com
+##.has-promotiom.lee-subscription-article-link
+
+! The Globe and Mail (theglobeandmail.com)
+||smartwall.theglobeandmail.com^
+theglobeandmail.com###subscription-pencil-area
+theglobeandmail.com##.pb-f-marketing-container-placeholder
+theglobeandmail.com##.container-with-ad
+theglobeandmail.com##+js(set, keytar.accessAllowed, true)
+theglobeandmail.com##+js(aopr, tgam.darwin.tests.segments.push)
+
+! Arc Publishing
+##.arc-ad-wrapper
+###arcad_recirc
+##.arc-ad
+||cloudfront.net/prod/cloudfrontVideoTracker.png
+
+! The Economist (economist.com)
+economist.com##.advert
+economist.com##.subscription-proposition
+economist.com##+js(json-prune, props)
+
+! The Boston Globe (bostonglobe.com)
+bostonglobe.com##.meter-social-connect
+bostonglobe.com##.sticky_container
+||bostonglobe.com/pf/resources/dist/third-party.js
+@@||meter.bostonglobe.com^$script,1p
+bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
+@@||bostonglobe.com/api/v1/setCookie$xhr,1p
+
+! Quartz (qz.com)
+qz.com##._6f0a2
+qz.com##[aria-labelledby="bottom-bar-primary-text"]
+||qz.com/api/site/behavior
+
+! The Christian Science Monitor (csmonitor.com)
+csmonitor.com##[id^="csm-promotions-banner"]
+csmonitor.com##[id^="home-subscribe-ad"]
+csmonitor.com##.preloaded_lightbox
+csmonitor.com##.injection
+csmonitor.com##.paywall
+csmonitor.com##+js(json-prune, ids meteredIds, modified)
+
+! McClatchy sites
+###ConnatixVideoAd
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone-el[data-feature="suggested"]
+/yozons-lib/*$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+@@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+://media.*/escenic$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+://media.*/micb.js|$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+://media.*/misites/$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+||streamtheworld.com^*/idsync.js
+
+! Connext / Flittz
+||czx5eyk0exbhwp43ya.biz^$third-party
+||ayc0zsm69431gfebd.info^$third-party
+||ayc0zsm69431gfebd.xyz^$third-party
+||g2insights-cdn.azureedge.net^$third-party
+||loader-cdn.azureedge.net^$third-party
+||fp-cdn.azureedge.net^$third-party
+||flittz-cdn.azureedge.net^$third-party
+||prod-mng-proxy-connext.azurewebsites.net^$third-party
+||connext-cdn.ec.azureedge.net^$third-party
+||mg2connext.com^$third-party
+||marketingg2.com^$third-party
+||flittz.com^$third-party
+
+! The Wrap (thewrap.com)
+thewrap.com##[id*="-box-ad-"]
+
+! El Mercurio - Print Edition (elmercurio.com)
+||merreader.emol.cl/assets/js/merPramV2.js$script,domain=elmercurio.com
+
+! Metroland Media Group / Torstar
+###ad-masthead
+##[data-lpos="gamp"]
+##[data-lpos="in-article-messaging"]
+##[data-lpos^="registration|"]
+##[data-lpos^="promo-"]
+thestar.com,thespec.com,therecord.com##.c-partner-articles
+thestar.com,thespec.com,therecord.com##.c-button--subscribe
+||resources.thestar.com^
+/api/overlaydata$domain=thestar.com|thespec.com|therecord.com
+thestar.com,thespec.com,therecord.com##+js(set, __PRELOADED_STATE__.paywall, false)
+thestar.com,thespec.com,therecord.com##+js(set, __PRELOADED_CONFIG_DATA__.enableHardPaywall, false)
+
+! Tribune Publishing sites
+||tribdss.com^$third-party
+
+! CricketArchive (cricketarchive.com)
+||my.cricketarchive.com/action/public/vo/pigeon-server?callback=PGPW&json=*content_access
+
+! AccuRadio (accuradio.com)
+||accuradio.com/sweeper/
+||accuradio.com/static/js/ltjs.js
+accuradio.com###playerSkipLoading
+accuradio.com###playerSkipButton:style(display:inline!important)
+||sendtonews.com^$3p
+||accuradio.com/listener/track-adbreaks/
+||aw1.accuradio.com^
+@@||a.pub.network/accuradio-com/pubfig.min.js$script,domain=accuradio.com
+
+! The Hindu (thehindu.com)
+thehindu.com##.ad-ft
+thehindu.com###stickyfooterarticle
+thehindu.com##.support-jlm
+||dm.thehindu.com^
+thehindu.com##+js(aopr, geoIdentify)
+thehindu.com##.entrySubs
+
+! Trinity Audio (remove when Easylist adds it...)
+||streamtheworld.com/ondemand/ars?
+||tsbluebox.com^$third-party
+||vidoplay.com^$third-party
+||whichtalk.com^$third-party
+
+! Hearst
+||hearstnp.com^$third-party
+@@||treg.hearstnp.com/treg.js$script
+
+! Clarín (clarin.com)
+||clarin.com/commons/sw/
+clarin.com###nl-box
+clarin.com##div.sp__SM
+||st-wzb.clarin.com/weizenbock/
+||static.clarin.com/commons/js/weizenbock.js
+
+! Albuquerque Journal (abqjournal.com)
+||tags.creativille.co.uk^$third-party
+||redcharger.co^$third-party
+||redcharger.net^$third-party
+||rcimages.xyz^$third-party
+||newsmemory.com/*/ads/?rotator_all=$subdocument
+||newsmemory.com/?prebid=
+abqjournal.com###PopupSignupForm_0
+abqjournal.com###custom_html-16
+abqjournal.com##[id^="story-ad-"]
+||vidazoo.com^$3p
+abqjournal.com###header-banner
+abqjournal.com#@##footer-banner
+||vidible.tv^$3p,domain=abqjournal.com
+
+! NZ Herald (nzherald.co.nz)
+nzherald.co.nz##.pb-f-article-related-articles
+nzherald.co.nz###premium-toaster
+||nzherald.co.nz/arc/subs/p.js
+nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
+nzherald.co.nz##+js(aopr, ArcPOptions)
+
+! Ladders (theladders.com)
+||theladders.com/api/auth/is-logged-in
+
+! The Business Journals (bizjournals.com)
+bizjournals.com##.item--sponsored
+bizjournals.com##+js(set, __page__.isPremium, false)
+
+! Diario Austral (australvaldivia.cl)
+australvaldivia.cl##+js(set, app.isPortada, true)
+australvaldivia.cl##+js(remove-attr, oncontextmenu)
+
+! Harper's Magazine (harpers.org)
+||harpers.org^*/pum/
+||harpers.org^*/leaky-paywall/
+||netdna-ssl.com^*/leaky-paywall/$domain=harpers.org
+harpers.org##.entry-content:style(display:block!important)
+
+! Charlie Hebdo (charliehebdo.fr)
+charliehebdo.fr##+js(aopr, poool)
+charliehebdo.fr###poool-widget
+
+! Namibia Media Holdings
+namibiansun.com,az.com.na,republikein.com.na##+js(set, $.prototype.modal, noopFunc)
+
+! Cooksmarts
+mealplans.cooksmarts.com##.paywall-upsell
+mealplans.cooksmarts.com##.paywall:style(color: unset !important; text-shadow: none !important)
+
+! Gannett
+3rdcowover.com,aberdeennews.com,adelnews.com,agjournalonline.com,alamogordonews.com,aledotimesrecord.com,alicetx.com,amarillo.com,amarillomagonline.com,amestrib.com,amtrib.com,app.com,ardmoreite.com,argusleader.com,augustachronicle.com,auroraadvertiser.net,austin360.com,azcentral.com,barnesville-enterprise.com,barnstablepatriot.com,battlecreekenquirer.com,baxterbulletin.com,baystateparent.com,bcdemocratonline.com,beaconjournal.com,beauregarddailynews.net,bedfordnow.com,blackmountainnews.com,blueridgenow.com,blufftontoday.com,boonevilledemocrat.com,boonvilledailynews.com,brownwoodtx.com,buckeyextra.com,buckscountycouriertimes.com,bucyrustelegraphforum.com,burlingtoncountytimes.com,burlingtonfreepress.com,butlercountytimesgazette.com,caller.com,cambridgechron.com,camplejeuneglobe.com,cantondailyledger.com,cantonrep.com,capecodtimes.com,charlestonexpress.com,charlevoixcourier.com,cheboygannews.com,chieftain.com,chillicothegazette.com,chillicothenews.com,chillicothetimesbulletin.com,chipleypaper.com,chronicle-express.com,cincinnati.com,citizen-times.com,cjonline.com,clarionledger.com,coloradoan.com,columbiadailyherald.com,columbiatribune.com,columbusalive.com,columbusceo.com,columbusmonthly.com,columbusparent.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courier-tribune.com,courierpostonline.com,courierpress.com,crestviewbulletin.com,crookstontimes.com,currentargus.com,daily-jeff.com,daily-times.com,dailyamerican.com,dailycomet.com,dailycommercial.com,dailyrecord.com,dailyworld.com,dansvilleonline.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,devilslakejournal.com,dispatch.com,dmjuice.com,dnj.com,dodgeglobe.com,donaldsonvillechief.com,doverpost.com,ducksports.com,eastpeoriatimescourier.com,echo-pilot.com,ellwoodcityledger.com,elpasotimes.com,elpasoymas.com,elsoldesalinas.com,enterprisenews.com,eveningsun.com,eveningtribune.com,examiner-enterprise.com,examiner.net,farmersadvance.com,farmforum.net,fayobserver.com,fdlreporter.com,featherstitch.com,flipsidepa.com,floridatoday.com,fosters.com,fowlertribune.com,freep.com,gadsdentimes.com,gainesville.com,galesburg.com,galvanews.com,gametimepa.com,gastongazette.com,gatorsports.com,gaylordheraldtimes.com,gctelegram.com,geneseorepublic.com,goerie.com,gosanangelo.com,goupstate.com,granitefallsnews.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,hamburgreporter.com,hamptoncountyguardian.com,hattiesburgamerican.com,havenews.com,hawkcentral.com,hdnews.net,heralddemocrat.com,heraldmailmedia.com,heraldnews.com,heraldtimesonline.com,heraldtribune.com,hillsdale.net,hockessincommunitynews.com,hollandsentinel.com,hometownlife.com,hookem.com,hoosiertimes.com,houmatoday.com,htrnews.com,hutchnews.com,indeonline.com,independentmail.com,indystar.com,inyork.com,ithacajournal.com,jacksonnewspapers.com,jacksonsun.com,jacksonville.com,jconline.com,jdnews.com,journaldemocrat.com,journalstandard.com,jsonline.com,kinston.com,kiowacountysignal.com,kirksvilledailyexpress.com,kitsapsun.com,knoxnews.com,lajuntatribunedemocrat.com,lakenewsonline.com,lancastereaglegazette.com,lansingstatejournal.com,lavozarizona.com,lcsun-news.com,ldnews.com,leavenworthtimes.com,leesvilledailyleader.com,lenconnect.com,leominsterchamp.com,lincolncourier.com,linkbostonhomes.com,linncountyleader.com,livingstondaily.com,lohud.com,lubbockonline.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,mcdonoughvoice.com,mcphersonsentinel.com,md-times.com,metrowestdailynews.com,middletowntranscript.com,midlothianmirror.com,milfordbeacon.com,milforddailynews.com,millburysutton.com,moberlymonitor.com,monroecopost.com,monroenews.com,montenews.com,montgomeryadvertiser.com,morningsun.net,mortontimesnews.com,mpnnow.com,mtshastanews.com,mycentraljersey.com,mytownneo.com,naplesnews.com,ncnewspress.com,ndinsider.com,neoshodailynews.com,nevadaiowajournal.com,newarkadvocate.com,newbernsj.com,newportlifemagazine.com,newportmercury.com,newportri.com,news-journalonline.com,news-leader.com,news-press.com,news-star.com,newschief.com,newsherald.com,newsleader.com,newsrepublican.com,newstimesonline.com,newstribune.info,njherald.com,northaugustatoday.com,northjersey.com,norwichbulletin.com,nwfdailynews.com,oakridger.com,ocala.com,oklahoman.com,oldcolonymemorial.com,onlineathens.com,oriongazette.com,ottawaherald.com,packersnews.com,pal-item.com,palmbeachdailynews.com,palmbeachpost.com,paolinews.com,paris-express.com,patriotledger.com,pawhuskajournalcapital.com,pekintimes.com,petoskeynews.com,pjstar.com,pnj.com,poconorecord.com,pontiacdailyleader.com,portclintonnewsherald.com,postcrescent.com,postsouth.com,poughkeepsiejournal.com,pratttribune.com,press-citizen.com,pressargus.com,pressconnects.com,progress-index.com,prosperpressnews.com,providencejournal.com,publicopiniononline.com,record-courier.com,recordnet.com,recordonline.com,recordstar.com,redding.com,redwoodfallsgazette.com,registerguard.com,reno.com,reporter-times.com,reporternews.com,reviewatlas.com,rgj.com,ridgecrestca.com,rrstar.com,ruidosonews.com,runnelscountyregister.com,salina.com,savannahnow.com,scsuntimes.com,sctimes.com,seacoastonline.com,sentinel-standard.com,sheboyganpress.com,shelbystar.com,shreveporttimes.com,siskiyoudaily.com,sj-r.com,sjnewsonline.com,sleepyeyenews.com,sooeveningnews.com,southbendtribune.com,southcoasttoday.com,spencereveningworld.com,springsvalleyherald.com,srpressgazette.com,starcourier.com,stargazette.com,starnewsonline.com,statesman.com,statesmanjournal.com,staugustine.com,steubencourier.com,stevenspointjournal.com,stjamesnews.com,storycityherald.com,sturgisjournal.com,swtimes.com,sylvaniatelephone.com,taftmidwaydriller.com,tallahassee.com,tauntongazette.com,tcpalm.com,telegram.com,tennessean.com,the-daily-record.com,the-dispatch.com,the-leader.com,the-review.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thedailyreporter.com,thedestinlog.com,thegardnernews.com,thegleaner.com,thegraftonnews.com,thehammontonnews.com,thehawkeye.com,theintell.com,thekansan.com,thelandmark.com,theleafchronicle.com,theledger.com,thenews-messenger.com,thenewsandfarmer.com,thenewsstar.com,thenorthwestern.com,theperrychief.com,thepublicopinion.com,therecordherald.com,therolladailynews.com,thespectrum.com,thestarpress.com,thesuburbanite.com,thetimesherald.com,thetimesnews.com,thetowntalk.com,thisweeknews.com,thisweeksports.com,tidesports.com,times-gazette.com,timesonline.com,timesrecordnews.com,timesreporter.com,timestelegram.com,tmnews.com,topsailadvertiser.com,tricountyindependent.com,tricountytimes.com,tuscaloosanews.com,upstateparent.com,usatoday.com,usatodaysportsplus.com,uticaod.com,vanalstyneleader.com,vcstar.com,visaliatimesdelta.com,vvdailypress.com,waltonsun.com,washingtontimesreporter.com,wausaudailyherald.com,waxahachietx.com,waynepost.com,weeklycitizen.com,wellingtondailynews.com,wellsvilledaily.com,wickedlocal.com,wisconsinrapidstribune.com,woodfordtimes.com,worcestermag.com,ydr.com,yorkdispatch.com,yourglenrosetx.com,yourstephenvilletx.com,zanesvilletimesrecorder.com##.gnt_n:style(top:0!important;margin-top:0!important)
+3rdcowover.com,aberdeennews.com,adelnews.com,agjournalonline.com,alamogordonews.com,aledotimesrecord.com,alicetx.com,amarillo.com,amarillomagonline.com,amestrib.com,amtrib.com,app.com,ardmoreite.com,argusleader.com,augustachronicle.com,auroraadvertiser.net,austin360.com,azcentral.com,barnesville-enterprise.com,barnstablepatriot.com,battlecreekenquirer.com,baxterbulletin.com,baystateparent.com,bcdemocratonline.com,beaconjournal.com,beauregarddailynews.net,bedfordnow.com,blackmountainnews.com,blueridgenow.com,blufftontoday.com,boonevilledemocrat.com,boonvilledailynews.com,brownwoodtx.com,buckeyextra.com,buckscountycouriertimes.com,bucyrustelegraphforum.com,burlingtoncountytimes.com,burlingtonfreepress.com,butlercountytimesgazette.com,caller.com,cambridgechron.com,camplejeuneglobe.com,cantondailyledger.com,cantonrep.com,capecodtimes.com,charlestonexpress.com,charlevoixcourier.com,cheboygannews.com,chieftain.com,chillicothegazette.com,chillicothenews.com,chillicothetimesbulletin.com,chipleypaper.com,chronicle-express.com,cincinnati.com,citizen-times.com,cjonline.com,clarionledger.com,coloradoan.com,columbiadailyherald.com,columbiatribune.com,columbusalive.com,columbusceo.com,columbusmonthly.com,columbusparent.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courier-tribune.com,courierpostonline.com,courierpress.com,crestviewbulletin.com,crookstontimes.com,currentargus.com,daily-jeff.com,daily-times.com,dailyamerican.com,dailycomet.com,dailycommercial.com,dailyrecord.com,dailyworld.com,dansvilleonline.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,devilslakejournal.com,dispatch.com,dmjuice.com,dnj.com,dodgeglobe.com,donaldsonvillechief.com,doverpost.com,ducksports.com,eastpeoriatimescourier.com,echo-pilot.com,ellwoodcityledger.com,elpasotimes.com,elpasoymas.com,elsoldesalinas.com,enterprisenews.com,eveningsun.com,eveningtribune.com,examiner-enterprise.com,examiner.net,farmersadvance.com,farmforum.net,fayobserver.com,fdlreporter.com,featherstitch.com,flipsidepa.com,floridatoday.com,fosters.com,fowlertribune.com,freep.com,gadsdentimes.com,gainesville.com,galesburg.com,galvanews.com,gametimepa.com,gastongazette.com,gatorsports.com,gaylordheraldtimes.com,gctelegram.com,geneseorepublic.com,goerie.com,gosanangelo.com,goupstate.com,granitefallsnews.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,hamburgreporter.com,hamptoncountyguardian.com,hattiesburgamerican.com,havenews.com,hawkcentral.com,hdnews.net,heralddemocrat.com,heraldmailmedia.com,heraldnews.com,heraldtimesonline.com,heraldtribune.com,hillsdale.net,hockessincommunitynews.com,hollandsentinel.com,hometownlife.com,hookem.com,hoosiertimes.com,houmatoday.com,htrnews.com,hutchnews.com,indeonline.com,independentmail.com,indystar.com,inyork.com,ithacajournal.com,jacksonnewspapers.com,jacksonsun.com,jacksonville.com,jconline.com,jdnews.com,journaldemocrat.com,journalstandard.com,jsonline.com,kinston.com,kiowacountysignal.com,kirksvilledailyexpress.com,kitsapsun.com,knoxnews.com,lajuntatribunedemocrat.com,lakenewsonline.com,lancastereaglegazette.com,lansingstatejournal.com,lavozarizona.com,lcsun-news.com,ldnews.com,leavenworthtimes.com,leesvilledailyleader.com,lenconnect.com,leominsterchamp.com,lincolncourier.com,linkbostonhomes.com,linncountyleader.com,livingstondaily.com,lohud.com,lubbockonline.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,mcdonoughvoice.com,mcphersonsentinel.com,md-times.com,metrowestdailynews.com,middletowntranscript.com,midlothianmirror.com,milfordbeacon.com,milforddailynews.com,millburysutton.com,moberlymonitor.com,monroecopost.com,monroenews.com,montenews.com,montgomeryadvertiser.com,morningsun.net,mortontimesnews.com,mpnnow.com,mtshastanews.com,mycentraljersey.com,mytownneo.com,naplesnews.com,ncnewspress.com,ndinsider.com,neoshodailynews.com,nevadaiowajournal.com,newarkadvocate.com,newbernsj.com,newportlifemagazine.com,newportmercury.com,newportri.com,news-journalonline.com,news-leader.com,news-press.com,news-star.com,newschief.com,newsherald.com,newsleader.com,newsrepublican.com,newstimesonline.com,newstribune.info,njherald.com,northaugustatoday.com,northjersey.com,norwichbulletin.com,nwfdailynews.com,oakridger.com,ocala.com,oklahoman.com,oldcolonymemorial.com,onlineathens.com,oriongazette.com,ottawaherald.com,packersnews.com,pal-item.com,palmbeachdailynews.com,palmbeachpost.com,paolinews.com,paris-express.com,patriotledger.com,pawhuskajournalcapital.com,pekintimes.com,petoskeynews.com,pjstar.com,pnj.com,poconorecord.com,pontiacdailyleader.com,portclintonnewsherald.com,postcrescent.com,postsouth.com,poughkeepsiejournal.com,pratttribune.com,press-citizen.com,pressargus.com,pressconnects.com,progress-index.com,prosperpressnews.com,providencejournal.com,publicopiniononline.com,record-courier.com,recordnet.com,recordonline.com,recordstar.com,redding.com,redwoodfallsgazette.com,registerguard.com,reno.com,reporter-times.com,reporternews.com,reviewatlas.com,rgj.com,ridgecrestca.com,rrstar.com,ruidosonews.com,runnelscountyregister.com,salina.com,savannahnow.com,scsuntimes.com,sctimes.com,seacoastonline.com,sentinel-standard.com,sheboyganpress.com,shelbystar.com,shreveporttimes.com,siskiyoudaily.com,sj-r.com,sjnewsonline.com,sleepyeyenews.com,sooeveningnews.com,southbendtribune.com,southcoasttoday.com,spencereveningworld.com,springsvalleyherald.com,srpressgazette.com,starcourier.com,stargazette.com,starnewsonline.com,statesman.com,statesmanjournal.com,staugustine.com,steubencourier.com,stevenspointjournal.com,stjamesnews.com,storycityherald.com,sturgisjournal.com,swtimes.com,sylvaniatelephone.com,taftmidwaydriller.com,tallahassee.com,tauntongazette.com,tcpalm.com,telegram.com,tennessean.com,the-daily-record.com,the-dispatch.com,the-leader.com,the-review.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thedailyreporter.com,thedestinlog.com,thegardnernews.com,thegleaner.com,thegraftonnews.com,thehammontonnews.com,thehawkeye.com,theintell.com,thekansan.com,thelandmark.com,theleafchronicle.com,theledger.com,thenews-messenger.com,thenewsandfarmer.com,thenewsstar.com,thenorthwestern.com,theperrychief.com,thepublicopinion.com,therecordherald.com,therolladailynews.com,thespectrum.com,thestarpress.com,thesuburbanite.com,thetimesherald.com,thetimesnews.com,thetowntalk.com,thisweeknews.com,thisweeksports.com,tidesports.com,times-gazette.com,timesonline.com,timesrecordnews.com,timesreporter.com,timestelegram.com,tmnews.com,topsailadvertiser.com,tricountyindependent.com,tricountytimes.com,tuscaloosanews.com,upstateparent.com,usatoday.com,usatodaysportsplus.com,uticaod.com,vanalstyneleader.com,vcstar.com,visaliatimesdelta.com,vvdailypress.com,waltonsun.com,washingtontimesreporter.com,wausaudailyherald.com,waxahachietx.com,waynepost.com,weeklycitizen.com,wellingtondailynews.com,wellsvilledaily.com,wickedlocal.com,wisconsinrapidstribune.com,woodfordtimes.com,worcestermag.com,ydr.com,yorkdispatch.com,yourglenrosetx.com,yourstephenvilletx.com,zanesvilletimesrecorder.com##.gnt_tb, .gnt_xbr, .gnt_cw_sl, #gnt_atomsnc, .gnt_pm, .ad-container
+3rdcowover.com,aberdeennews.com,adelnews.com,agjournalonline.com,alamogordonews.com,aledotimesrecord.com,alicetx.com,amarillo.com,amarillomagonline.com,amestrib.com,amtrib.com,app.com,ardmoreite.com,argusleader.com,augustachronicle.com,auroraadvertiser.net,austin360.com,azcentral.com,barnesville-enterprise.com,barnstablepatriot.com,battlecreekenquirer.com,baxterbulletin.com,baystateparent.com,bcdemocratonline.com,beaconjournal.com,beauregarddailynews.net,bedfordnow.com,blackmountainnews.com,blueridgenow.com,blufftontoday.com,boonevilledemocrat.com,boonvilledailynews.com,brownwoodtx.com,buckeyextra.com,buckscountycouriertimes.com,bucyrustelegraphforum.com,burlingtoncountytimes.com,burlingtonfreepress.com,butlercountytimesgazette.com,caller.com,cambridgechron.com,camplejeuneglobe.com,cantondailyledger.com,cantonrep.com,capecodtimes.com,charlestonexpress.com,charlevoixcourier.com,cheboygannews.com,chieftain.com,chillicothegazette.com,chillicothenews.com,chillicothetimesbulletin.com,chipleypaper.com,chronicle-express.com,cincinnati.com,citizen-times.com,cjonline.com,clarionledger.com,coloradoan.com,columbiadailyherald.com,columbiatribune.com,columbusalive.com,columbusceo.com,columbusmonthly.com,columbusparent.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courier-tribune.com,courierpostonline.com,courierpress.com,crestviewbulletin.com,crookstontimes.com,currentargus.com,daily-jeff.com,daily-times.com,dailyamerican.com,dailycomet.com,dailycommercial.com,dailyrecord.com,dailyworld.com,dansvilleonline.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,devilslakejournal.com,dispatch.com,dmjuice.com,dnj.com,dodgeglobe.com,donaldsonvillechief.com,doverpost.com,ducksports.com,eastpeoriatimescourier.com,echo-pilot.com,ellwoodcityledger.com,elpasotimes.com,elpasoymas.com,elsoldesalinas.com,enterprisenews.com,eveningsun.com,eveningtribune.com,examiner-enterprise.com,examiner.net,farmersadvance.com,farmforum.net,fayobserver.com,fdlreporter.com,featherstitch.com,flipsidepa.com,floridatoday.com,fosters.com,fowlertribune.com,freep.com,gadsdentimes.com,gainesville.com,galesburg.com,galvanews.com,gametimepa.com,gastongazette.com,gatorsports.com,gaylordheraldtimes.com,gctelegram.com,geneseorepublic.com,goerie.com,gosanangelo.com,goupstate.com,granitefallsnews.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,hamburgreporter.com,hamptoncountyguardian.com,hattiesburgamerican.com,havenews.com,hawkcentral.com,hdnews.net,heralddemocrat.com,heraldmailmedia.com,heraldnews.com,heraldtimesonline.com,heraldtribune.com,hillsdale.net,hockessincommunitynews.com,hollandsentinel.com,hometownlife.com,hookem.com,hoosiertimes.com,houmatoday.com,htrnews.com,hutchnews.com,indeonline.com,independentmail.com,indystar.com,inyork.com,ithacajournal.com,jacksonnewspapers.com,jacksonsun.com,jacksonville.com,jconline.com,jdnews.com,journaldemocrat.com,journalstandard.com,jsonline.com,kinston.com,kiowacountysignal.com,kirksvilledailyexpress.com,kitsapsun.com,knoxnews.com,lajuntatribunedemocrat.com,lakenewsonline.com,lancastereaglegazette.com,lansingstatejournal.com,lavozarizona.com,lcsun-news.com,ldnews.com,leavenworthtimes.com,leesvilledailyleader.com,lenconnect.com,leominsterchamp.com,lincolncourier.com,linkbostonhomes.com,linncountyleader.com,livingstondaily.com,lohud.com,lubbockonline.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,mcdonoughvoice.com,mcphersonsentinel.com,md-times.com,metrowestdailynews.com,middletowntranscript.com,midlothianmirror.com,milfordbeacon.com,milforddailynews.com,millburysutton.com,moberlymonitor.com,monroecopost.com,monroenews.com,montenews.com,montgomeryadvertiser.com,morningsun.net,mortontimesnews.com,mpnnow.com,mtshastanews.com,mycentraljersey.com,mytownneo.com,naplesnews.com,ncnewspress.com,ndinsider.com,neoshodailynews.com,nevadaiowajournal.com,newarkadvocate.com,newbernsj.com,newportlifemagazine.com,newportmercury.com,newportri.com,news-journalonline.com,news-leader.com,news-press.com,news-star.com,newschief.com,newsherald.com,newsleader.com,newsrepublican.com,newstimesonline.com,newstribune.info,njherald.com,northaugustatoday.com,northjersey.com,norwichbulletin.com,nwfdailynews.com,oakridger.com,ocala.com,oklahoman.com,oldcolonymemorial.com,onlineathens.com,oriongazette.com,ottawaherald.com,packersnews.com,pal-item.com,palmbeachdailynews.com,palmbeachpost.com,paolinews.com,paris-express.com,patriotledger.com,pawhuskajournalcapital.com,pekintimes.com,petoskeynews.com,pjstar.com,pnj.com,poconorecord.com,pontiacdailyleader.com,portclintonnewsherald.com,postcrescent.com,postsouth.com,poughkeepsiejournal.com,pratttribune.com,press-citizen.com,pressargus.com,pressconnects.com,progress-index.com,prosperpressnews.com,providencejournal.com,publicopiniononline.com,record-courier.com,recordnet.com,recordonline.com,recordstar.com,redding.com,redwoodfallsgazette.com,registerguard.com,reno.com,reporter-times.com,reporternews.com,reviewatlas.com,rgj.com,ridgecrestca.com,rrstar.com,ruidosonews.com,runnelscountyregister.com,salina.com,savannahnow.com,scsuntimes.com,sctimes.com,seacoastonline.com,sentinel-standard.com,sheboyganpress.com,shelbystar.com,shreveporttimes.com,siskiyoudaily.com,sj-r.com,sjnewsonline.com,sleepyeyenews.com,sooeveningnews.com,southbendtribune.com,southcoasttoday.com,spencereveningworld.com,springsvalleyherald.com,srpressgazette.com,starcourier.com,stargazette.com,starnewsonline.com,statesman.com,statesmanjournal.com,staugustine.com,steubencourier.com,stevenspointjournal.com,stjamesnews.com,storycityherald.com,sturgisjournal.com,swtimes.com,sylvaniatelephone.com,taftmidwaydriller.com,tallahassee.com,tauntongazette.com,tcpalm.com,telegram.com,tennessean.com,the-daily-record.com,the-dispatch.com,the-leader.com,the-review.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thedailyreporter.com,thedestinlog.com,thegardnernews.com,thegleaner.com,thegraftonnews.com,thehammontonnews.com,thehawkeye.com,theintell.com,thekansan.com,thelandmark.com,theleafchronicle.com,theledger.com,thenews-messenger.com,thenewsandfarmer.com,thenewsstar.com,thenorthwestern.com,theperrychief.com,thepublicopinion.com,therecordherald.com,therolladailynews.com,thespectrum.com,thestarpress.com,thesuburbanite.com,thetimesherald.com,thetimesnews.com,thetowntalk.com,thisweeknews.com,thisweeksports.com,tidesports.com,times-gazette.com,timesonline.com,timesrecordnews.com,timesreporter.com,timestelegram.com,tmnews.com,topsailadvertiser.com,tricountyindependent.com,tricountytimes.com,tuscaloosanews.com,upstateparent.com,usatoday.com,usatodaysportsplus.com,uticaod.com,vanalstyneleader.com,vcstar.com,visaliatimesdelta.com,vvdailypress.com,waltonsun.com,washingtontimesreporter.com,wausaudailyherald.com,waxahachietx.com,waynepost.com,weeklycitizen.com,wellingtondailynews.com,wellsvilledaily.com,wickedlocal.com,wisconsinrapidstribune.com,woodfordtimes.com,worcestermag.com,ydr.com,yorkdispatch.com,yourglenrosetx.com,yourstephenvilletx.com,zanesvilletimesrecorder.com##+js(set, gnt.u.adfree, true)
+3rdcowover.com,aberdeennews.com,adelnews.com,agjournalonline.com,alamogordonews.com,aledotimesrecord.com,alicetx.com,amarillo.com,amarillomagonline.com,amestrib.com,amtrib.com,app.com,ardmoreite.com,argusleader.com,augustachronicle.com,auroraadvertiser.net,austin360.com,azcentral.com,barnesville-enterprise.com,barnstablepatriot.com,battlecreekenquirer.com,baxterbulletin.com,baystateparent.com,bcdemocratonline.com,beaconjournal.com,beauregarddailynews.net,bedfordnow.com,blackmountainnews.com,blueridgenow.com,blufftontoday.com,boonevilledemocrat.com,boonvilledailynews.com,brownwoodtx.com,buckeyextra.com,buckscountycouriertimes.com,bucyrustelegraphforum.com,burlingtoncountytimes.com,burlingtonfreepress.com,butlercountytimesgazette.com,caller.com,cambridgechron.com,camplejeuneglobe.com,cantondailyledger.com,cantonrep.com,capecodtimes.com,charlestonexpress.com,charlevoixcourier.com,cheboygannews.com,chieftain.com,chillicothegazette.com,chillicothenews.com,chillicothetimesbulletin.com,chipleypaper.com,chronicle-express.com,cincinnati.com,citizen-times.com,cjonline.com,clarionledger.com,coloradoan.com,columbiadailyherald.com,columbiatribune.com,columbusalive.com,columbusceo.com,columbusmonthly.com,columbusparent.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courier-tribune.com,courierpostonline.com,courierpress.com,crestviewbulletin.com,crookstontimes.com,currentargus.com,daily-jeff.com,daily-times.com,dailyamerican.com,dailycomet.com,dailycommercial.com,dailyrecord.com,dailyworld.com,dansvilleonline.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,devilslakejournal.com,dispatch.com,dmjuice.com,dnj.com,dodgeglobe.com,donaldsonvillechief.com,doverpost.com,ducksports.com,eastpeoriatimescourier.com,echo-pilot.com,ellwoodcityledger.com,elpasotimes.com,elpasoymas.com,elsoldesalinas.com,enterprisenews.com,eveningsun.com,eveningtribune.com,examiner-enterprise.com,examiner.net,farmersadvance.com,farmforum.net,fayobserver.com,fdlreporter.com,featherstitch.com,flipsidepa.com,floridatoday.com,fosters.com,fowlertribune.com,freep.com,gadsdentimes.com,gainesville.com,galesburg.com,galvanews.com,gametimepa.com,gastongazette.com,gatorsports.com,gaylordheraldtimes.com,gctelegram.com,geneseorepublic.com,goerie.com,gosanangelo.com,goupstate.com,granitefallsnews.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,hamburgreporter.com,hamptoncountyguardian.com,hattiesburgamerican.com,havenews.com,hawkcentral.com,hdnews.net,heralddemocrat.com,heraldmailmedia.com,heraldnews.com,heraldtimesonline.com,heraldtribune.com,hillsdale.net,hockessincommunitynews.com,hollandsentinel.com,hometownlife.com,hookem.com,hoosiertimes.com,houmatoday.com,htrnews.com,hutchnews.com,indeonline.com,independentmail.com,indystar.com,inyork.com,ithacajournal.com,jacksonnewspapers.com,jacksonsun.com,jacksonville.com,jconline.com,jdnews.com,journaldemocrat.com,journalstandard.com,jsonline.com,kinston.com,kiowacountysignal.com,kirksvilledailyexpress.com,kitsapsun.com,knoxnews.com,lajuntatribunedemocrat.com,lakenewsonline.com,lancastereaglegazette.com,lansingstatejournal.com,lavozarizona.com,lcsun-news.com,ldnews.com,leavenworthtimes.com,leesvilledailyleader.com,lenconnect.com,leominsterchamp.com,lincolncourier.com,linkbostonhomes.com,linncountyleader.com,livingstondaily.com,lohud.com,lubbockonline.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,mcdonoughvoice.com,mcphersonsentinel.com,md-times.com,metrowestdailynews.com,middletowntranscript.com,midlothianmirror.com,milfordbeacon.com,milforddailynews.com,millburysutton.com,moberlymonitor.com,monroecopost.com,monroenews.com,montenews.com,montgomeryadvertiser.com,morningsun.net,mortontimesnews.com,mpnnow.com,mtshastanews.com,mycentraljersey.com,mytownneo.com,naplesnews.com,ncnewspress.com,ndinsider.com,neoshodailynews.com,nevadaiowajournal.com,newarkadvocate.com,newbernsj.com,newportlifemagazine.com,newportmercury.com,newportri.com,news-journalonline.com,news-leader.com,news-press.com,news-star.com,newschief.com,newsherald.com,newsleader.com,newsrepublican.com,newstimesonline.com,newstribune.info,njherald.com,northaugustatoday.com,northjersey.com,norwichbulletin.com,nwfdailynews.com,oakridger.com,ocala.com,oklahoman.com,oldcolonymemorial.com,onlineathens.com,oriongazette.com,ottawaherald.com,packersnews.com,pal-item.com,palmbeachdailynews.com,palmbeachpost.com,paolinews.com,paris-express.com,patriotledger.com,pawhuskajournalcapital.com,pekintimes.com,petoskeynews.com,pjstar.com,pnj.com,poconorecord.com,pontiacdailyleader.com,portclintonnewsherald.com,postcrescent.com,postsouth.com,poughkeepsiejournal.com,pratttribune.com,press-citizen.com,pressargus.com,pressconnects.com,progress-index.com,prosperpressnews.com,providencejournal.com,publicopiniononline.com,record-courier.com,recordnet.com,recordonline.com,recordstar.com,redding.com,redwoodfallsgazette.com,registerguard.com,reno.com,reporter-times.com,reporternews.com,reviewatlas.com,rgj.com,ridgecrestca.com,rrstar.com,ruidosonews.com,runnelscountyregister.com,salina.com,savannahnow.com,scsuntimes.com,sctimes.com,seacoastonline.com,sentinel-standard.com,sheboyganpress.com,shelbystar.com,shreveporttimes.com,siskiyoudaily.com,sj-r.com,sjnewsonline.com,sleepyeyenews.com,sooeveningnews.com,southbendtribune.com,southcoasttoday.com,spencereveningworld.com,springsvalleyherald.com,srpressgazette.com,starcourier.com,stargazette.com,starnewsonline.com,statesman.com,statesmanjournal.com,staugustine.com,steubencourier.com,stevenspointjournal.com,stjamesnews.com,storycityherald.com,sturgisjournal.com,swtimes.com,sylvaniatelephone.com,taftmidwaydriller.com,tallahassee.com,tauntongazette.com,tcpalm.com,telegram.com,tennessean.com,the-daily-record.com,the-dispatch.com,the-leader.com,the-review.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thedailyreporter.com,thedestinlog.com,thegardnernews.com,thegleaner.com,thegraftonnews.com,thehammontonnews.com,thehawkeye.com,theintell.com,thekansan.com,thelandmark.com,theleafchronicle.com,theledger.com,thenews-messenger.com,thenewsandfarmer.com,thenewsstar.com,thenorthwestern.com,theperrychief.com,thepublicopinion.com,therecordherald.com,therolladailynews.com,thespectrum.com,thestarpress.com,thesuburbanite.com,thetimesherald.com,thetimesnews.com,thetowntalk.com,thisweeknews.com,thisweeksports.com,tidesports.com,times-gazette.com,timesonline.com,timesrecordnews.com,timesreporter.com,timestelegram.com,tmnews.com,topsailadvertiser.com,tricountyindependent.com,tricountytimes.com,tuscaloosanews.com,upstateparent.com,usatoday.com,usatodaysportsplus.com,uticaod.com,vanalstyneleader.com,vcstar.com,visaliatimesdelta.com,vvdailypress.com,waltonsun.com,washingtontimesreporter.com,wausaudailyherald.com,waxahachietx.com,waynepost.com,weeklycitizen.com,wellingtondailynews.com,wellsvilledaily.com,wickedlocal.com,wisconsinrapidstribune.com,woodfordtimes.com,worcestermag.com,ydr.com,yorkdispatch.com,yourglenrosetx.com,yourstephenvilletx.com,zanesvilletimesrecorder.com##+js(cookie-remover, /^/)
+/gannett-web/apps/teal/dist/vendor/ias/*
+/tangstatic/*$domain=3rdcowover.com|aberdeennews.com|adelnews.com|agjournalonline.com|alamogordonews.com|aledotimesrecord.com|alicetx.com|amarillo.com|amarillomagonline.com|amestrib.com|amtrib.com|app.com|ardmoreite.com|argusleader.com|augustachronicle.com|auroraadvertiser.net|austin360.com|azcentral.com|barnesville-enterprise.com|barnstablepatriot.com|battlecreekenquirer.com|baxterbulletin.com|baystateparent.com|bcdemocratonline.com|beaconjournal.com|beauregarddailynews.net|bedfordnow.com|blackmountainnews.com|blueridgenow.com|blufftontoday.com|boonevilledemocrat.com|boonvilledailynews.com|brownwoodtx.com|buckeyextra.com|buckscountycouriertimes.com|bucyrustelegraphforum.com|burlingtoncountytimes.com|burlingtonfreepress.com|butlercountytimesgazette.com|caller.com|cambridgechron.com|camplejeuneglobe.com|cantondailyledger.com|cantonrep.com|capecodtimes.com|charlestonexpress.com|charlevoixcourier.com|cheboygannews.com|chieftain.com|chillicothegazette.com|chillicothenews.com|chillicothetimesbulletin.com|chipleypaper.com|chronicle-express.com|cincinnati.com|citizen-times.com|cjonline.com|clarionledger.com|coloradoan.com|columbiadailyherald.com|columbiatribune.com|columbusalive.com|columbusceo.com|columbusmonthly.com|columbusparent.com|commercialappeal.com|coshoctontribune.com|courier-journal.com|courier-tribune.com|courierpostonline.com|courierpress.com|crestviewbulletin.com|crookstontimes.com|currentargus.com|daily-jeff.com|daily-times.com|dailyamerican.com|dailycomet.com|dailycommercial.com|dailyrecord.com|dailyworld.com|dansvilleonline.com|delawareonline.com|delmarvanow.com|demingheadlight.com|democratandchronicle.com|desertsun.com|desmoinesregister.com|detroitnews.com|devilslakejournal.com|dispatch.com|dmjuice.com|dnj.com|dodgeglobe.com|donaldsonvillechief.com|doverpost.com|ducksports.com|eastpeoriatimescourier.com|echo-pilot.com|ellwoodcityledger.com|elpasotimes.com|elpasoymas.com|elsoldesalinas.com|enterprisenews.com|eveningsun.com|eveningtribune.com|examiner-enterprise.com|examiner.net|farmersadvance.com|farmforum.net|fayobserver.com|fdlreporter.com|featherstitch.com|flipsidepa.com|floridatoday.com|fosters.com|fowlertribune.com|freep.com|gadsdentimes.com|gainesville.com|galesburg.com|galvanews.com|gametimepa.com|gastongazette.com|gatorsports.com|gaylordheraldtimes.com|gctelegram.com|geneseorepublic.com|goerie.com|gosanangelo.com|goupstate.com|granitefallsnews.com|greatfallstribune.com|greenbaypressgazette.com|greenvilleonline.com|hamburgreporter.com|hamptoncountyguardian.com|hattiesburgamerican.com|havenews.com|hawkcentral.com|hdnews.net|heralddemocrat.com|heraldmailmedia.com|heraldnews.com|heraldtimesonline.com|heraldtribune.com|hillsdale.net|hockessincommunitynews.com|hollandsentinel.com|hometownlife.com|hookem.com|hoosiertimes.com|houmatoday.com|htrnews.com|hutchnews.com|indeonline.com|independentmail.com|indystar.com|inyork.com|ithacajournal.com|jacksonnewspapers.com|jacksonsun.com|jacksonville.com|jconline.com|jdnews.com|journaldemocrat.com|journalstandard.com|jsonline.com|kinston.com|kiowacountysignal.com|kirksvilledailyexpress.com|kitsapsun.com|knoxnews.com|lajuntatribunedemocrat.com|lakenewsonline.com|lancastereaglegazette.com|lansingstatejournal.com|lavozarizona.com|lcsun-news.com|ldnews.com|leavenworthtimes.com|leesvilledailyleader.com|lenconnect.com|leominsterchamp.com|lincolncourier.com|linkbostonhomes.com|linncountyleader.com|livingstondaily.com|lohud.com|lubbockonline.com|mansfieldnewsjournal.com|marionstar.com|marshfieldnewsherald.com|mcdonoughvoice.com|mcphersonsentinel.com|md-times.com|metrowestdailynews.com|middletowntranscript.com|midlothianmirror.com|milfordbeacon.com|milforddailynews.com|millburysutton.com|moberlymonitor.com|monroecopost.com|monroenews.com|montenews.com|montgomeryadvertiser.com|morningsun.net|mortontimesnews.com|mpnnow.com|mtshastanews.com|mycentraljersey.com|mytownneo.com|naplesnews.com|ncnewspress.com|ndinsider.com|neoshodailynews.com|nevadaiowajournal.com|newarkadvocate.com|newbernsj.com|newportlifemagazine.com|newportmercury.com|newportri.com|news-journalonline.com|news-leader.com|news-press.com|news-star.com|newschief.com|newsherald.com|newsleader.com|newsrepublican.com|newstimesonline.com|newstribune.info|njherald.com|northaugustatoday.com|northjersey.com|norwichbulletin.com|nwfdailynews.com|oakridger.com|ocala.com|oklahoman.com|oldcolonymemorial.com|onlineathens.com|oriongazette.com|ottawaherald.com|packersnews.com|pal-item.com|palmbeachdailynews.com|palmbeachpost.com|paolinews.com|paris-express.com|patriotledger.com|pawhuskajournalcapital.com|pekintimes.com|petoskeynews.com|pjstar.com|pnj.com|poconorecord.com|pontiacdailyleader.com|portclintonnewsherald.com|postcrescent.com|postsouth.com|poughkeepsiejournal.com|pratttribune.com|press-citizen.com|pressargus.com|pressconnects.com|progress-index.com|prosperpressnews.com|providencejournal.com|publicopiniononline.com|record-courier.com|recordnet.com|recordonline.com|recordstar.com|redding.com|redwoodfallsgazette.com|registerguard.com|reno.com|reporter-times.com|reporternews.com|reviewatlas.com|rgj.com|ridgecrestca.com|rrstar.com|ruidosonews.com|runnelscountyregister.com|salina.com|savannahnow.com|scsuntimes.com|sctimes.com|seacoastonline.com|sentinel-standard.com|sheboyganpress.com|shelbystar.com|shreveporttimes.com|siskiyoudaily.com|sj-r.com|sjnewsonline.com|sleepyeyenews.com|sooeveningnews.com|southbendtribune.com|southcoasttoday.com|spencereveningworld.com|springsvalleyherald.com|srpressgazette.com|starcourier.com|stargazette.com|starnewsonline.com|statesman.com|statesmanjournal.com|staugustine.com|steubencourier.com|stevenspointjournal.com|stjamesnews.com|storycityherald.com|sturgisjournal.com|swtimes.com|sylvaniatelephone.com|taftmidwaydriller.com|tallahassee.com|tauntongazette.com|tcpalm.com|telegram.com|tennessean.com|the-daily-record.com|the-dispatch.com|the-leader.com|the-review.com|theadvertiser.com|thecalifornian.com|thedailyjournal.com|thedailyreporter.com|thedestinlog.com|thegardnernews.com|thegleaner.com|thegraftonnews.com|thehammontonnews.com|thehawkeye.com|theintell.com|thekansan.com|thelandmark.com|theleafchronicle.com|theledger.com|thenews-messenger.com|thenewsandfarmer.com|thenewsstar.com|thenorthwestern.com|theperrychief.com|thepublicopinion.com|therecordherald.com|therolladailynews.com|thespectrum.com|thestarpress.com|thesuburbanite.com|thetimesherald.com|thetimesnews.com|thetowntalk.com|thisweeknews.com|thisweeksports.com|tidesports.com|times-gazette.com|timesonline.com|timesrecordnews.com|timesreporter.com|timestelegram.com|tmnews.com|topsailadvertiser.com|tricountyindependent.com|tricountytimes.com|tuscaloosanews.com|upstateparent.com|usatoday.com|usatodaysportsplus.com|uticaod.com|vanalstyneleader.com|vcstar.com|visaliatimesdelta.com|vvdailypress.com|waltonsun.com|washingtontimesreporter.com|wausaudailyherald.com|waxahachietx.com|waynepost.com|weeklycitizen.com|wellingtondailynews.com|wellsvilledaily.com|wickedlocal.com|wisconsinrapidstribune.com|woodfordtimes.com|worcestermag.com|ydr.com|yorkdispatch.com|yourglenrosetx.com|yourstephenvilletx.com|zanesvilletimesrecorder.com
+@@/tangstatic/js/main-$script,domain=3rdcowover.com|aberdeennews.com|adelnews.com|agjournalonline.com|alamogordonews.com|aledotimesrecord.com|alicetx.com|amarillo.com|amarillomagonline.com|amestrib.com|amtrib.com|app.com|ardmoreite.com|argusleader.com|augustachronicle.com|auroraadvertiser.net|austin360.com|azcentral.com|barnesville-enterprise.com|barnstablepatriot.com|battlecreekenquirer.com|baxterbulletin.com|baystateparent.com|bcdemocratonline.com|beaconjournal.com|beauregarddailynews.net|bedfordnow.com|blackmountainnews.com|blueridgenow.com|blufftontoday.com|boonevilledemocrat.com|boonvilledailynews.com|brownwoodtx.com|buckeyextra.com|buckscountycouriertimes.com|bucyrustelegraphforum.com|burlingtoncountytimes.com|burlingtonfreepress.com|butlercountytimesgazette.com|caller.com|cambridgechron.com|camplejeuneglobe.com|cantondailyledger.com|cantonrep.com|capecodtimes.com|charlestonexpress.com|charlevoixcourier.com|cheboygannews.com|chieftain.com|chillicothegazette.com|chillicothenews.com|chillicothetimesbulletin.com|chipleypaper.com|chronicle-express.com|cincinnati.com|citizen-times.com|cjonline.com|clarionledger.com|coloradoan.com|columbiadailyherald.com|columbiatribune.com|columbusalive.com|columbusceo.com|columbusmonthly.com|columbusparent.com|commercialappeal.com|coshoctontribune.com|courier-journal.com|courier-tribune.com|courierpostonline.com|courierpress.com|crestviewbulletin.com|crookstontimes.com|currentargus.com|daily-jeff.com|daily-times.com|dailyamerican.com|dailycomet.com|dailycommercial.com|dailyrecord.com|dailyworld.com|dansvilleonline.com|delawareonline.com|delmarvanow.com|demingheadlight.com|democratandchronicle.com|desertsun.com|desmoinesregister.com|detroitnews.com|devilslakejournal.com|dispatch.com|dmjuice.com|dnj.com|dodgeglobe.com|donaldsonvillechief.com|doverpost.com|ducksports.com|eastpeoriatimescourier.com|echo-pilot.com|ellwoodcityledger.com|elpasotimes.com|elpasoymas.com|elsoldesalinas.com|enterprisenews.com|eveningsun.com|eveningtribune.com|examiner-enterprise.com|examiner.net|farmersadvance.com|farmforum.net|fayobserver.com|fdlreporter.com|featherstitch.com|flipsidepa.com|floridatoday.com|fosters.com|fowlertribune.com|freep.com|gadsdentimes.com|gainesville.com|galesburg.com|galvanews.com|gametimepa.com|gastongazette.com|gatorsports.com|gaylordheraldtimes.com|gctelegram.com|geneseorepublic.com|goerie.com|gosanangelo.com|goupstate.com|granitefallsnews.com|greatfallstribune.com|greenbaypressgazette.com|greenvilleonline.com|hamburgreporter.com|hamptoncountyguardian.com|hattiesburgamerican.com|havenews.com|hawkcentral.com|hdnews.net|heralddemocrat.com|heraldmailmedia.com|heraldnews.com|heraldtimesonline.com|heraldtribune.com|hillsdale.net|hockessincommunitynews.com|hollandsentinel.com|hometownlife.com|hookem.com|hoosiertimes.com|houmatoday.com|htrnews.com|hutchnews.com|indeonline.com|independentmail.com|indystar.com|inyork.com|ithacajournal.com|jacksonnewspapers.com|jacksonsun.com|jacksonville.com|jconline.com|jdnews.com|journaldemocrat.com|journalstandard.com|jsonline.com|kinston.com|kiowacountysignal.com|kirksvilledailyexpress.com|kitsapsun.com|knoxnews.com|lajuntatribunedemocrat.com|lakenewsonline.com|lancastereaglegazette.com|lansingstatejournal.com|lavozarizona.com|lcsun-news.com|ldnews.com|leavenworthtimes.com|leesvilledailyleader.com|lenconnect.com|leominsterchamp.com|lincolncourier.com|linkbostonhomes.com|linncountyleader.com|livingstondaily.com|lohud.com|lubbockonline.com|mansfieldnewsjournal.com|marionstar.com|marshfieldnewsherald.com|mcdonoughvoice.com|mcphersonsentinel.com|md-times.com|metrowestdailynews.com|middletowntranscript.com|midlothianmirror.com|milfordbeacon.com|milforddailynews.com|millburysutton.com|moberlymonitor.com|monroecopost.com|monroenews.com|montenews.com|montgomeryadvertiser.com|morningsun.net|mortontimesnews.com|mpnnow.com|mtshastanews.com|mycentraljersey.com|mytownneo.com|naplesnews.com|ncnewspress.com|ndinsider.com|neoshodailynews.com|nevadaiowajournal.com|newarkadvocate.com|newbernsj.com|newportlifemagazine.com|newportmercury.com|newportri.com|news-journalonline.com|news-leader.com|news-press.com|news-star.com|newschief.com|newsherald.com|newsleader.com|newsrepublican.com|newstimesonline.com|newstribune.info|njherald.com|northaugustatoday.com|northjersey.com|norwichbulletin.com|nwfdailynews.com|oakridger.com|ocala.com|oklahoman.com|oldcolonymemorial.com|onlineathens.com|oriongazette.com|ottawaherald.com|packersnews.com|pal-item.com|palmbeachdailynews.com|palmbeachpost.com|paolinews.com|paris-express.com|patriotledger.com|pawhuskajournalcapital.com|pekintimes.com|petoskeynews.com|pjstar.com|pnj.com|poconorecord.com|pontiacdailyleader.com|portclintonnewsherald.com|postcrescent.com|postsouth.com|poughkeepsiejournal.com|pratttribune.com|press-citizen.com|pressargus.com|pressconnects.com|progress-index.com|prosperpressnews.com|providencejournal.com|publicopiniononline.com|record-courier.com|recordnet.com|recordonline.com|recordstar.com|redding.com|redwoodfallsgazette.com|registerguard.com|reno.com|reporter-times.com|reporternews.com|reviewatlas.com|rgj.com|ridgecrestca.com|rrstar.com|ruidosonews.com|runnelscountyregister.com|salina.com|savannahnow.com|scsuntimes.com|sctimes.com|seacoastonline.com|sentinel-standard.com|sheboyganpress.com|shelbystar.com|shreveporttimes.com|siskiyoudaily.com|sj-r.com|sjnewsonline.com|sleepyeyenews.com|sooeveningnews.com|southbendtribune.com|southcoasttoday.com|spencereveningworld.com|springsvalleyherald.com|srpressgazette.com|starcourier.com|stargazette.com|starnewsonline.com|statesman.com|statesmanjournal.com|staugustine.com|steubencourier.com|stevenspointjournal.com|stjamesnews.com|storycityherald.com|sturgisjournal.com|swtimes.com|sylvaniatelephone.com|taftmidwaydriller.com|tallahassee.com|tauntongazette.com|tcpalm.com|telegram.com|tennessean.com|the-daily-record.com|the-dispatch.com|the-leader.com|the-review.com|theadvertiser.com|thecalifornian.com|thedailyjournal.com|thedailyreporter.com|thedestinlog.com|thegardnernews.com|thegleaner.com|thegraftonnews.com|thehammontonnews.com|thehawkeye.com|theintell.com|thekansan.com|thelandmark.com|theleafchronicle.com|theledger.com|thenews-messenger.com|thenewsandfarmer.com|thenewsstar.com|thenorthwestern.com|theperrychief.com|thepublicopinion.com|therecordherald.com|therolladailynews.com|thespectrum.com|thestarpress.com|thesuburbanite.com|thetimesherald.com|thetimesnews.com|thetowntalk.com|thisweeknews.com|thisweeksports.com|tidesports.com|times-gazette.com|timesonline.com|timesrecordnews.com|timesreporter.com|timestelegram.com|tmnews.com|topsailadvertiser.com|tricountyindependent.com|tricountytimes.com|tuscaloosanews.com|upstateparent.com|usatoday.com|usatodaysportsplus.com|uticaod.com|vanalstyneleader.com|vcstar.com|visaliatimesdelta.com|vvdailypress.com|waltonsun.com|washingtontimesreporter.com|wausaudailyherald.com|waxahachietx.com|waynepost.com|weeklycitizen.com|wellingtondailynews.com|wellsvilledaily.com|wickedlocal.com|wisconsinrapidstribune.com|woodfordtimes.com|worcestermag.com|ydr.com|yorkdispatch.com|yourglenrosetx.com|yourstephenvilletx.com|zanesvilletimesrecorder.com
+||gannett-cdn.com/dcjs/
+||gannett-cdn.com/dcc/
+
+! Wax Poetics (waxpoetics.com)
+waxpoetics.com##+js(json-prune, count ip)
+
+! Lyd & Billede
+lydogbilde.no,lydogbillede.dk##.entry-content-wrap:style(max-height:unset!important)
+lydogbilde.no,lydogbillede.dk##.placeholdme,.lbplussinfo
+
+! The Age (theage.com.au)
+theage.com.au##+js(set, GLOBAL_VARIABLES.PAYWALL.COUNT_STORAGE_NAME, '')
+theage.com.au##+js(set, GLOBAL_VARIABLES.PAYWALL.COUNTED_ASSETS_STORAGE_NAME, '')
+
+! National Geographic (nationalgeographic.com)
+nationalgeographic.com##+js(aeld, scroll)
+! ||dcf.espn.com^
+
+! The Atlantic (theatlantic.com)
+||sparklingshelf.com^
+theatlantic.com##+js(cookie-remover, articleViews)
+theatlantic.com##[class^="Paywall"]
+
+! Time (time.com)
+||time.com/dist/authentication.js
+time.com##.meter-wall
+time.com##body:style(position:static!important;overflow-y:visible!important)
+
+! Livemint (livemint.com)
+||livemint.com/__js/lm_subscription_$script
+livemint.com##.subscription .paywall:style(height: unset !important; overflow: unset !important;)
+livemint.com##.subscription .paywall .subscriptionBox
+
+! Financial Times AMP site (amp.ft.com)
+amp.ft.com##.amp-access-barrier
+amp.ft.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+||amp-access-svc.memb.ft.com/amp-pingback
+amp.ft.com##.n-content-layout:has(.n-content-heading-4:has-text(newsletter))
+
+! Chronicle of Higher Education (chronicle.com)
+||c950.chronicle.com^
+||assets.login.chronicle.com^
+
+! Crain's Chicago Business (chicagobusiness.com)
+chicagobusiness.com##+js(json-prune, porte)
+
+! High Country News (hcn.org)
+hcn.org##+js(ra, content, meta[name="UID"])
+
+! demorgen.be
+demorgen.be/temptation/resolve*
+
+! enotes
+enotes.com##.obscured:style(color: black !important;text-shadow: none !important; filter: none !important)
+enotes.com##.paywall-mount
+
+! el pais
+elpais.com###paywallOfferSmall
+elpais.com###cta-button-container
+
+! russian
+glavbukh.ru,gazeta-unp.ru,business.ru#$#.paywall-activated { display: none!important; }
+glavbukh.ru,gazeta-unp.ru,business.ru#$#.contentBlur { opacity: 100!important; pointer-events: auto!important; -webkit-filter: none!important; -moz-filter: none!important; filter: none!important; }
+glavbukh.ru,gazeta-unp.ru#$#.contentByTheme__wrapper { opacity: 100!important; pointer-events: auto!important; -webkit-filter: none!important; -moz-filter: none!important; filter: none!important; }
+
+! The Saturday Paper
+thesaturdaypaper.com.au#$#.article-page__body > p[style="display: none;"] { display: block!important; }
+thesaturdaypaper.com.au#$#.article-page__body > .end-matter[style="display: none;"] { display: block!important; }
+thesaturdaypaper.com.au#$##page-wrapper > .readmore[style="display: none;"] { display: block!important; }
+thesaturdaypaper.com.au#$##page-wrapper > .paywall-container-outer { display: none!important; }
+
+! Postimees
+postimees.ee#$#body { overflow: visible !important; }
+postimees.ee#$#.cookie-paywall { display: none !important; }
+postimees.ee#$#.adblock-notif { display: none !important; }
+postimees.ee##+js(remove-class, cookie-paywall-visible, article[class^="root"])
+
+! harpers.org
+harpers.org###issuem-leaky-paywall-articles-remaining-nag
+harpers.org##.entry-content:style(display:block!important)
+
+! Others
+buffalonews.com###paywall-footer
+cityam.com##+js(aopr, paywallWrapper)
+discovermagazine.com##.payWall
+elmundotoday.com##.emt-paywall-warning
+expres.online###paywall-notification
+fakt.pl#$#div[amp-access*="showPayWall"][amp-access-hide] { display: block !important; }
+falkirkherald.co.uk,northantstelegraph.co.uk##.piano-article-paywall
+foreignaffairs.com##.paywall
+kirche-und-leben.de##.test-paywall-overlay
+mt.de###paywall-footer-slider
+nautil.us##.paywall-popup
+newengland.com##div[id^="haven-paywall"]
+nv.ua##.paywall-area
+nw.de###paywall-footer-slider
+recordonline.com##+js(set, _sp_.msg.displayMessage, noopFunc)
+seattletimes.com##.paywall_popup
+sudinfo.be###slg-paywall-1
+sudinfo.be##.pane-paywall-all-section-js
+thetimes.co.uk###paywall-portal-page-footer
+wn.de###paywall_container
+delawareonline.com/odygel/lib/core/core.js
+
+! ----------------- PT-BR -----------------
+
+! Netdeal (netdeal.com.br)
+||netdeal.com.br^$third-party
+netdeal.js*$script
+netdeal.com.br/*
+
+! Fivewall (fivewall.com.br)
+||blockv2.fivewall.com.br/*
+||fivewall.com.br^$third-party
+/fivewall.js*
+fivewall.js*$script
+fivewall.com.br/*
+
+! NSC Total (Diário Catarinense, Jornal de Santa Catarina)
+||paywall.nsctotal.com.br/behaviors*
+
+! Grupo ClicRBS (Gaúcha Zero Hora)
+api.clicrbs.com.br/paywall-api/*
+clicrbs.com.br##.ad-container
+clicrbs.com.br##.m-advertising
+clicrbs.com.br##.section-advertising-middle-1.section-advertising-middle
+clicrbs.com.br/it/js/paid-content-config.js*
+clicrbs.com.br/jornal*/jsp/paywall.jspx*
+clicrbs.com.br/jornal/jsp/paywall*
+rbsonline.com.br/cdn/scripts/paywall.min.js*
+||rbsonline.com.br/cdn/scripts/SLoader.js*$script
+||rbsonline.com.br/cdn/scripts/paywall.min.js*$script
+||rbsonline.com.br/cdn/scripts/special-paywall.min.js*$script
+||rbsonline1.com.br/cdn/scripts/paywall.min.js*$script
+
+! O Globo
+||cdn.tinypass.com/api/tinypass.min.js
+||ogjs.infoglobo.com.br/*/js/contadorDeAcessos.js*$script
+||ogjs.infoglobo.com.br/*/js/controla-acesso-aux.js*$script
+||oglobo.globo.com/*controla-acesso*
+||oglobo.globo.com/_js/payWall*
+||oglobo.globo.com/plataforma/js/*/minificados/paywall*
+||oglobo.globo.com/plataforma/js/*/minificados/paywall/registraConteudosLidos.js
+||oglobo.globo.com/servicos/inc/payWall.Conteudo.js
+||static.infoglobo.com.br/paywall/*
+blogs.oglobo.globo.com###pub-box-materia
+blogs.oglobo.globo.com###pub-fullbanner-1
+oglobo.globo.com##.block__advertising-content
+oglobo.globo.com##.block__subpane--advertising.block__subpane
+oglobo.globo.com##barreiraRegisterExclusiva
+oglobo.globo.com##section.block--advertising.block
+oglobo.globo.com##section.four-subpanes-with-advertising.block
+
+! Folha de S.Paulo
+/wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
+@@||folha.uol.com.br/paywall/adblock.shtml?$document
+@@||paywall.folha.uol.com.br/status.php$domain=f5.folha.uol.com.br
+@@||paywall.folha.uol.com.br/status.php^$document
+@@||static.folha.uol.com.br/paywall/*/publicidade.ads.js
+||folha.com.br/paywall/*
+||folha.uol.com.br/folha/furniture/paywall/*
+||folha.uol.com.br/folha/furniture/paywall/$xmlhttprequest
+||folha.uol.com.br/folha/furniture/paywall/loader.js
+||folha.uol.com.br/folha/furniture/paywall/loader.js$script
+||folha.uol.com.br/paywall/js/$script
+||paywall.folha.com.br^
+||paywall.folha.uol.com.br/*
+||paywall.folha.uol.com.br/wall.jsonp?callback=paywall.inicio$domain=blogfolha.uol.com.br|educacao.uol.com.br|folha.uol.com.br|uol.com.br
+||paywall.folha.uol.com.br^$domain=folha.uol.com.br
+||static.folha.com.br/paywall/*
+||static.folha.uol.com.br/library/jquery/1.8.3/*
+||static.folha.uol.com.br/paywall/*
+folha.uol.com.br##.c-push-notification
+folha.uol.com.br##bt-read-more-content
+paywall.folha.uol.com.br/status.php
+
+! Estadão
+@@||/s2016/portal/js/advertisement.js$script,domain=estadao.com.br
+||acesso.estadao.com.br/paywall/*
+||estadao.com.br##.assine-bar
+||estadao.com.br/estadao/js/modules/navegg*$script
+||estadao.com.br/estadao/novo/js/oesp/lib/swfobject.js
+||estadao.com.br/estadao/novo/swf/
+||estadao.com.br/estadao/v2012/*/paywall/
+||estadao.com.br/estadao/*/paywall/
+||estadao.com.br/imagens/swf/
+||estadao.com.br/paywall/*
+||estadao.com.br/web-push/modal-naoassinante$xmlhttprequest,first-party
+||paywall.estadao.com.br^
+
+! JOTA
+||*.jota.info/wp-content/themes/JOTA/assets/js/posts.js*$script
+jota.info##.jota-paywall
+
+! Gazeta do Povo
+||gazetadopovo.com.br/assinaturas/public/js/connect_api.js*
+||gazetadopovo.com.br/conta/going/api/paywall/*
+||gazetadopovo.com.br/loader/v1/logan_full_toolbar.js*
+||gazetadopovo.com.br/public/_css/paywall.css*$stylesheet
+gazetadopovo.com.br##.c-assine-container
+gazetadopovo.com.br##.c-publi
+
+! Correio Popular
+||correio.rac.com.br/includes/js/novo_cp/fivewall.js*
+
+! Correio 24horas
+||correio-static.cworks.cloud/vendor/bower_components/paywall.js/paywall.js*
+
+! Estado do Maranhão
+||assets.imirante.com/2.0/oestadoma/js/jquery.login.min.js
+||dashboard.tinypass.com/xbuilder/experience/load*
+
+! Jornal de Novo Hamburgo
+||jornalnh.com.br/includes/js/paywall.js*
+jornalnh.com.br##.fw-overlay
+jornalnh.com.br##.fw-overlay-frame
+jornalnh.com.br##.pubcid
+||blockv2.fivewall.com.br/*
+
+! Diarinho
+diarinho.com.br/wp-admin/admin-ajax.php
+
+! Exame
+exame.com/wp-content/themes/exame-new/js/pywll.js
+
+! Folha de londrina
+folhadelondrina.com.br/login.php*
+ 
+! Nexo Jornal
+acesso.nexojornal.com.br/paywall/*
+
+! Grupo Abril (Veja, Quatrorodas, Superinteressante,...)
+||authp.abril.com.br/paywall/*$xhr,1p
+abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/paywall.js*
+
+! Grupo UOL
+tm.jsuol.com.br/modules/content-gate.js
+/wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
+@@||uol.com.br/paywall/adblock.shtml?$document
+@@||paywall.*.uol.com.br/status.php$domain=f5.*.uol.com.br
+@@||paywall.*.uol.com.br/status.php^$document
+@@||static.*.uol.com.br/paywall/*/publicidade.ads.js
+uol.com.br/*/furniture/paywall/*
+uol.com.br/paywall/js/*
+paywall.*.uol.com.br/*
+static.*.uol.com.br/library/jquery/1.8.3/*
+static.*.uol.com.br/paywall/*
+uol.com.br##.c-push-notification
+uol.com.br##bt-read-more-content
