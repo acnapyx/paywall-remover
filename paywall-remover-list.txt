@@ -11,8 +11,6 @@
 
 !--- General rules ---!
 
-!  Wordpress Firefox ESR52 nag
-###dashboard_browser_nag
 ! Wired adblock filtering
 wired.com/assets/load
 ! Business Insider adblock filtering
