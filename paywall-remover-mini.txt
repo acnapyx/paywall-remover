@@ -1,0 +1,270 @@
+[Adblock Plus 2.0]
+! Version: 202202231430
+! Expires: never
+! Title: Paywall Remover
+! Homepage: https://github.com/acnapyx/paywall-remover
+
+! Paywalls and nags remover by AspSoft
+! Last modified: Feb 23 2022 16:20 EET
+! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt ***
+! Contact me at asparuh at 365careers dot com
+
+!--- General rules ---!
+
+! Wired adblock filtering
+wired.com/assets/load
+! Business Insider adblock filtering
+@@||businessinsider.com^$elemhide
+! Boston Globe adblock and incognito filtering
+meter.bostonglobe.com/js/meter.js
+! MIT Technology Review incognito filtering
+cdn.technologyreview.com/_/dist/js/article.js
+! Webcafe adblock filtering
+webcafe.bg/js/site.js
+! Salon adblock/cryptominer filtering
+salon.com/design/assets/bundle.js
+salon.com/assets/app.js
+! Seattle Times adblock/incognito filtering
+seattletimes.com/wp-content/plugins/st-privacy-detection/js/
+! Bloomberg paywall
+assets.bwbx.io/s3/fence/v4/app.bundle.js
+! New Statesman paywall
+newstatesman.com/sites/all/modules/paywall/assets/js/*
+! iNews adblock filtering
+https://inews.co.uk/static/inews-ab-dialog/inewsFeAdblockDialog.js
+! Conde Nast paywalls
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
+! RawStory paywall
+scrubswim.com*
+! Slate adblock nag
+###adblock-message
+! Steady paywall
+steadyhq.com/widget_loader/*
+https://steadycdn.com/prod/js/*
+! Pixlr adblock nag
+@@||pixlr.com$generichide
+! BoredPanda nag
+squeakzinc.com/v2/*
+! Zelka nag
+zelka.org##.magla
+zelka.org##.blocker-form
+
+! Admiral blocker
+perceivequarter.com*
+! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
+cdn.tinypass.com*
+experience.tinypass.com*
+! SentryLogin blocker
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+! MyMemberspace blocker
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+! MembershipWorks blocker
+cdn.membershipworks.com*
+! Cookie Transparency & Consent Framework blocker
+!*mgr.consensu.org*
+!cdn.cookielaw.org/consent/*
+!consent.cookiebot.com*
+! AdSanity blocker
+*/adsanity-ad-block-detection/public/js/*$script
+!Evidon blocker
+c.evidon.com/*
+
+! ---- INTERNATIONAL FILTERS ----
+
+! Admiral blocker
+perceivequarter.com*
+
+! AdSanity blocker
+/adsanity-ad-block-detection/public/js/*$script
+
+! Cookie Transparency & Consent Framework blocker
+mgr.consensu.org*
+cdn.cookielaw.org/consent/*
+consent.cookiebot.com*
+
+! Evidon blocker
+c.evidon.com/*
+
+! MembershipWorks blocker
+cdn.membershipworks.com*
+
+! MyMemberspace blocker
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+
+! RawStory blocker
+scrubswim.com
+
+! SentryLogin blocker
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+
+! Tinypass (tinypass.com)
+||cdn.tinypass.com/api/tinypass.min.js
+||dashboard.tinypass.com/xbuilder/experience/load*
+||tinypass.com^$third-party
+cdn.tinypass.com*
+experience.tinypass.com*
+market.tinypass.com/
+tinypass.min.js*$script
+
+! Bloomberg (bloomberg.com)
+||assets.bwbx.io^*/fence/$script
+||assets.bwbx.io^*/pianola/$script
+bloomberg.com###pathfinder-tout
+assets.bwbx.io/s3/fence/v4/app.bundle.js
+assets.bwbx.io/s3/fence/*
+bloomberg.com###paywall-banner
+
+! Condé Nast
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
+allure.com/js/article*.js
+architecturaldigest.com/js/article*.js
+bonappetit.com/js/article*.js
+cntraveler.com/js/article*.js
+gq.com/js/article*.js
+newyorker.com/js/article*.js
+vanityfair.com/js/article*.js
+vogue.com/js/article*.js
+wired.com/js/article*.js
+://journey.$first-party,script,domain=allure.com|architecturaldigest.com|bonappetit.com|cntraveler.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(nofab)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(set, paywallGateway.truncateContent, noopFunc)
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.ad—rail
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.ad-stickyhero
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.journey-template--in-content
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.journey-unit, [class*="ConsumerMarketingUnit"]
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-registration-gate
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-registration-gate-container
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-bar—expanded
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##.paywall-bar--visible
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##aside[class^="PaywallBarWrapper-"]
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##div[data-event-click='{"pattern":"PaywallConductor"}']
+allure.com,architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##div[data-impression-name="paywall-bar-failsafe"]
+
+! The New York Times (nytimes.com)
+/mtr.js$script,domain=nyt.com|nytimes.com
+||meter-svc.nytimes.com^
+||nyt.com^*/metered_assets$script
+||nytimes.com^*/metered_assets/
+||nytimes.com/svc/nyt/data-layer
+nytimes.com###credential_picker_container
+nytimes.com##+js(set, navigator.storage.estimate, undefined)
+nytimes.com##+js(set, webkitRequestFileSystem, noopFunc)
+nytimes.com##.InlineMessage-inline--2ysnq
+nytimes.com##.e1i2wxpm0.css-mlcs8h.shown
+nytimes.com##.gdpr
+nytimes.com##.magnoliaDock
+nytimes.com##div[data-test-id="RecommendedNewsletter"]
+nytimes.com##div[data-testid="expanded-dock"]
+nytimes.com##div[data-testid="inline-message"]
+nytimes.com/*/gw.js*
+nytimes.com/*/gwy.js*
+www-nytimes-com.cdn.ampproject.org##.i-amphtml-subs-display[subscriptions-display^="grantReason != 'SUBSCRIBER' AND NOT data.hitPaywall"]
+
+! Washington Post (washingtonpost.com)
+@@||subscribe.washingtonpost.com/user/$xhr,1p
+||d2p9l91d5g68ru.cloudfront.net/PrerollPlugin/
+||subscribe.washingtonpost.com^
+||washingtonpost.com/pb/*/subscription-acquisition
+||washingtonpost.com/pb/gr/c/default/*/identity-management-$script
+||washingtonpost.com/pwapiv2/
+||washingtonpost.com/subscribe/logging/
+||washingtonpost.com/subscribe/paywall/
+||washingtonpost.com/subscribe/pw/
+||washingtonpost.com/wp-stat/pb/prod/pmbl.txt
+||washingtonpost.com/wp-stat/pwapi/*
+||washingtonpost.com^*/pwapi-$script
+washingtonpost.com###leaderboard-wrapper
+washingtonpost.com##+js(set, $.prototype.wpPreroll, noopFunc)
+washingtonpost.com##+js(set, wp_pb.StaticMethods.parametrizeLinks.getRules, noopFunc)
+washingtonpost.com##.codedNewsletter.pb-f-page-newsletter-inLine
+washingtonpost.com##.dn.db-ns[style^="height:"][style*="1250px"]
+washingtonpost.com##.interstitial.hide-for-print
+washingtonpost.com##.pb-f-ads-arcads
+washingtonpost.com##.pb-f-page-subscription-remind-later
+washingtonpost.com##.pb-lgmod
+washingtonpost.com##.promo
+washingtonpost.com##[class^="pb-f-ad-"]
+washingtonpost.com##[data-chain-name="brandconnect-chain"]
+washingtonpost.com##[data-chain-name^="ad-group"]
+washingtonpost.com##[data-feature-id$="-pre-roll"]
+washingtonpost.com##[data-feature-id^="ad/"]
+washingtonpost.com##[data-qa="inline-subs-bg"]:upward(.hide-for-print)
+washingtonpost.com##[data-qa="interstitial-link-wrapper"]
+washingtonpost.com##[data-qa="newsletter"]
+washingtonpost.com##.paywall > div[style^="width: 100%; margin: 32px auto;"]
+
+! Los Angeles Times (latimes.com)
+||californiatimes.com^*/Bootstrap.js$script
+||californiatimes.com/meter/$script
+||californiatimes.com/meteringjs/$script
+||californiatimes.com/newsletter-campaign-manager/$script
+
+! The Globe and Mail (theglobeandmail.com)
+||smartwall.theglobeandmail.com^
+theglobeandmail.com###subscription-pencil-area
+theglobeandmail.com##.pb-f-marketing-container-placeholder
+theglobeandmail.com##.container-with-ad
+theglobeandmail.com##+js(set, keytar.accessAllowed, true)
+theglobeandmail.com##+js(aopr, tgam.darwin.tests.segments.push)
+
+! The Economist (economist.com)
+economist.com##.advert
+economist.com##.subscription-proposition
+economist.com##+js(json-prune, props)
+
+! The Boston Globe (bostonglobe.com)
+bostonglobe.com##.meter-social-connect
+bostonglobe.com##.sticky_container
+||bostonglobe.com/pf/resources/dist/third-party.js
+@@||meter.bostonglobe.com^$script,1p
+bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
+@@||bostonglobe.com/api/v1/setCookie$xhr,1p
+
+! Quartz (qz.com)
+qz.com##._6f0a2
+qz.com##[aria-labelledby="bottom-bar-primary-text"]
+||qz.com/api/site/behavior
+
+! National Geographic (nationalgeographic.com)
+nationalgeographic.com##+js(aeld, scroll)
+! ||dcf.espn.com^
+
+! The Atlantic (theatlantic.com)
+||sparklingshelf.com^
+theatlantic.com##+js(cookie-remover, articleViews)
+theatlantic.com##[class^="Paywall"]
+
+! Time (time.com)
+||time.com/dist/authentication.js
+time.com##.meter-wall
+time.com##body:style(position:static!important;overflow-y:visible!important)
+
+! Financial Times AMP site (amp.ft.com)
+amp.ft.com##.amp-access-barrier
+amp.ft.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+||amp-access-svc.memb.ft.com/amp-pingback
+amp.ft.com##.n-content-layout:has(.n-content-heading-4:has-text(newsletter))
+
