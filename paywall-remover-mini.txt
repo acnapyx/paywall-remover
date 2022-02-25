@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 202202231430
 ! Expires: never
-! Title: Paywall Remover
+! Title: Paywall Remover Mini
 ! Homepage: https://github.com/acnapyx/paywall-remover
 
 ! Paywalls and nags remover by AspSoft
