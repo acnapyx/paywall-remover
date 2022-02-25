@@ -81,6 +81,7 @@ cdn.membershipworks.com*
 c.evidon.com/*
 
 ! This part of the list contributed anonymously via guerrillamail - cannot provide credit for now. Asking the contributor to contact me privately via email again.
+! It slows heavily the adblock filtering so if you prefer faster loading, use paywall-remover-mini.txt from the same repository.
 ! --------- GENERAL FILTERS ---------
 ###__memberspace_memberlogin_button
 ###__memberspace_modal_background
