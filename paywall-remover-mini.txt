@@ -268,3 +268,8 @@ amp.ft.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 ||amp-access-svc.memb.ft.com/amp-pingback
 amp.ft.com##.n-content-layout:has(.n-content-heading-4:has-text(newsletter))
 
+! AOL top search remover 
+mail.aol.com###searchInput
+mail.aol.com##.wsInput.search
+mail.aol.com###searchButton
+mail.aol.com##.unselectable.btn.btnLarge.btnLargeHover
