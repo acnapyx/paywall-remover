@@ -7,7 +7,7 @@
 ! Additional Paywalls and nags remover by AspSoft
 ! Last modified: Feb 23 2022 16:20 EET
 ! *** Fetched from: https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-anon.txt ***
-! Contact me at acnapyx at protonmail dot com
+! Contact me at acnapyx at pm dot me
 
 ! This list was contributed anonymously via guerrillamail - cannot provide credit for now. Asking the contributor to contact me privately via email again.
 ! Known issue with this specific list:
