@@ -42,8 +42,8 @@ scrubswim.com*
 ! Steady paywall
 steadyhq.com/widget_loader/*
 https://steadycdn.com/prod/js/*
-! Pixlr adblock nag
-@@||pixlr.com$generichide
+! ArlinaBlock adblock nag
+https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js
 ! BoredPanda nag
 squeakzinc.com/v2/*
 ! Zelka nag
